@@ -3510,3 +3510,8 @@ details-disclosure > details {
     --border-offset: 0px; /* Prevent the border from growing on buttons when this effect is on. */
   }
 }
+
+.list-menu__item {
+    font-size: 17px !important;
+    fnot-weight: 700;
+}
