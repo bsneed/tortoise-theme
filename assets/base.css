@@ -3512,7 +3512,6 @@ details-disclosure > details {
 }
 
 .list-menu__item {
-    font-size: 17px !important;
     font-family: "Kanit-Bold";
-    fnot-weight: 700;
+    font-weight: 700;
 }
