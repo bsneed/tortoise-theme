@@ -73,6 +73,11 @@
 
 /* base */
 
+@font-face {
+  font-family: "Kanit";
+  src: url({{ "Kanit" | asset_url }}) format("woff2")
+}
+
 .no-js:not(html) {
   display: none !important;
 }
