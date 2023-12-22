@@ -3515,18 +3515,22 @@ details-disclosure > details {
 /* Custom club stuff */
 
 .list-menu__item {
-    font-family: "Kanit-Bold";
-    font-size: 18pt;
-    font-weight: 700;
-    color: black;
-    padding-left: 10px;
-    padding-right: 10px;
-    line-height: 1.5;
-    text-transform: uppercase;
-    letter-spacing: -0.5px;
-    transform: translateY(-8px);
+  font-family: "Kanit-Bold";
+  font-size: 18pt;
+  font-weight: 700;
+  color: black;
+  padding-left: 10px;
+  padding-right: 10px;
+  line-height: 1.5;
+  text-transform: uppercase;
+  letter-spacing: -0.5px;
+  transform: translateY(-8px);
 }
 
 .list-menu__item:hover {
     text-decoration: underline;
+}
+
+.inline-richtext.h0 {
+  font-family: "Kanit-Bold";
 }
