@@ -131,6 +131,11 @@
       --border-offset: 0;
     }
 
+    .button:not([disabled]):hover::after {
+      outline-style: none;
+      --border-offset: 0;
+    }
+    
     .button--secondary:hover,
     .button--secondary:hover::active,
     .button--secondary:active,
