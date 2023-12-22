@@ -3529,3 +3529,7 @@ details-disclosure > details {
 .list-menu__item:hover {
     text-decoration: underline;
 }
+
+.header--middle-left {
+  padding-top: 0px;
+}
