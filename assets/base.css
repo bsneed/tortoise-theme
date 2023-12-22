@@ -3522,3 +3522,7 @@ details-disclosure > details {
     text-transform: uppercase;
     letter-spacing: -0.5px;
 }
+
+.list-menu__item:hover {
+    text-decoration: underline;
+}
