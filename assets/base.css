@@ -2889,6 +2889,7 @@ details[open] > .header__menu-item .icon-caret {
 .header__menu-item .icon-caret {
   right: 0.8rem;
   stroke-width: 1.5px;
+  viewBox: 0 0 12 12;
   width: 14px;
   height: 14px;
 }
