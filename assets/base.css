@@ -3531,3 +3531,7 @@ details-disclosure > details {
     text-decoration: underline;
 }
 
+div svg path {
+  stroke: #000000;
+  stroke-width: 4px;
+}
