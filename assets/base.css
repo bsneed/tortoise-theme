@@ -3525,7 +3525,7 @@ details-disclosure > details {
     line-height: 1.5;
     text-transform: uppercase;
     letter-spacing: -0.5px;
-    transform: translateY(-10px);
+    transform: translateY(-5px);
 }
 
 .list-menu__item:hover {
