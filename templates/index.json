@@ -7,7 +7,7 @@
           "type": "heading",
           "settings": {
             "heading": "SUCCESS",
-            "heading_size": "hxl"
+            "heading_size": "h0"
           }
         }
       },
@@ -61,12 +61,12 @@
         "image": "shopify:\/\/shop_images\/410754025_1579164089499204_7054264725519658117_n.jpg",
         "image_overlay_opacity": 40,
         "image_height": "small",
-        "desktop_content_position": "bottom-center",
+        "desktop_content_position": "middle-left",
         "show_text_box": false,
-        "desktop_content_alignment": "center",
+        "desktop_content_alignment": "left",
         "color_scheme": "scheme-3",
         "image_behavior": "none",
-        "mobile_content_alignment": "center",
+        "mobile_content_alignment": "left",
         "stack_images_on_mobile": false,
         "show_text_below": false
       }
