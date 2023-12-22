@@ -2887,7 +2887,7 @@ details[open] > .header__menu-item .icon-caret {
 
 .header__menu-item .icon-caret {
   right: 0.8rem;
-  stroke: 2;
+  stroke-width: 1.5;
 }
 
 .header__submenu .icon-caret {
