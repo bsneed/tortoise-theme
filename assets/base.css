@@ -3531,3 +3531,7 @@ details-disclosure > details {
     text-decoration: underline;
 }
 
+.h1 {
+  font-family: "Kanit-Bold";
+}
+
