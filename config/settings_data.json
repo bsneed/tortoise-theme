@@ -140,7 +140,7 @@
               "apply_h2": false,
               "apply_h3": true,
               "apply_h4": false,
-              "apply_h5": true,
+              "apply_h5": false,
               "apply_h6": false,
               "apply_span": false,
               "apply_p": false,
