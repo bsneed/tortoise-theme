@@ -3520,6 +3520,7 @@ details-disclosure > details {
     color: black;
     padding-left: 10px;
     padding-right: 10px;
+    padding-top: 0px;
     line-height: 1.5;
     text-transform: uppercase;
     letter-spacing: -0.5px;
@@ -3527,9 +3528,4 @@ details-disclosure > details {
 
 .list-menu__item:hover {
     text-decoration: underline;
-}
-
-.header {
-    padding-left: 20px;
-    padding-right: 20px;
 }
