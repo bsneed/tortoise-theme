@@ -3519,6 +3519,5 @@ details-disclosure > details {
     padding-left: 10px;
     padding-right: 10px;
     line-height: 1.5;
-    text-transform: uppercase;
-    letter-spacing: 2px;
+    text-transform: uppercase
 }
