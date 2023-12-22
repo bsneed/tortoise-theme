@@ -3511,6 +3511,8 @@ details-disclosure > details {
   }
 }
 
+/* Custom club stuff */
+
 .list-menu__item {
     font-family: "Kanit-Bold";
     font-size: 18pt;
@@ -3525,4 +3527,9 @@ details-disclosure > details {
 
 .list-menu__item:hover {
     text-decoration: underline;
+}
+
+.header--middle-left {
+    padding-left: 20px;
+    padding-right: 20px;
 }
