@@ -208,6 +208,7 @@
     "b1d4b7bc-5a95-46e4-a9eb-e6fd2157b0cc": {
       "type": "club-scroll",
       "settings": {
+        "heading": "This is a test of the emergency broadcast system."
       }
     }
   },
