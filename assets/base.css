@@ -2411,7 +2411,7 @@ product-info .loading__spinner:not(.hidden) ~ *,
 
   .header--middle-left {
     grid-template-areas: 'heading navigation icons';
-    grid-template-columns: auto auto 0px;
+    grid-template-columns: auto auto 1fr 0fr;
     column-gap: 0rem;
   }
 
