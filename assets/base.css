@@ -3531,7 +3531,7 @@ details-disclosure > details {
     text-decoration: underline;
 }
 
-.h2 {
+.h2.banner__heading.inline-richtext.h0 {
   font-family: "Kanit-Bold";
 }
 
