@@ -132,8 +132,7 @@
     }
 
     .button--secondary:hover,
-    .button--secondary:hover::after,
-    .button:hover {
+    .button--secondary:hover::after {
       text-transform: uppercase;
       font-family: "Kanit-Semibold";
       font-size: 8pt;
@@ -146,21 +145,12 @@
       --border-offset: 0;
     }
 
-    .button--secondary: hover {
-      text-transform: uppercase;
-      font-family: "Kanit-Semibold";
-      font-size: 8pt;
-      border-radius: 16px;
-      background: black;
-      color: white;
-      border-style: solid;
-      max-height: 20px;
-      outline-style: none;
-      --border-offset: 0;
-    }
-
-    .button {
+    .button,
+    .button: hover,
+    .button: hover::after {
       min-height: 30px;
+      outline-style: none;
+      --border-offset: 0;
     }
   
     
