@@ -2413,7 +2413,7 @@ product-info .loading__spinner:not(.hidden) ~ *,
     grid-template-areas: 'heading navigation icons';
     grid-template-columns: auto auto 1fr;
     column-gap: 0rem;
-    vertical-align: top;
+    gap: 10px;
   }
 
   .header--middle-center:not(.drawer-menu) {
