@@ -3520,5 +3520,5 @@ details-disclosure > details {
     padding-right: 10px;
     line-height: 1.5;
     text-transform: uppercase;
-    letter-spacing: -1px;
+    letter-spacing: 1px;
 }
