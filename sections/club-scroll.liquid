@@ -1,10 +1,10 @@
 <div class="example1">
     <span>
-      <a href="#">Title 1</a>
-      <a href="#">Title 2</a>
-      <a href="#">Title 3</a>
-      <a href="#">Title 4</a>
-      <a href="#">Title 5</a>
+    {%- if section.settings.heading != blank -%}
+      <h2>
+        {{ section.settings.heading }}
+      </h2>
+    {%- endif -%}
     </span>
   </div>
 
@@ -64,8 +64,8 @@
     {
       "type": "inline_richtext",
       "id": "heading",
-      "default": "Talk about your brand",
-      "label": "t:sections.scroller.heading.label"
+      "default": "Say something!",
+      "label": "t:sections.scroller.settings.heading.label"
     }
   ],
   "presets": [
