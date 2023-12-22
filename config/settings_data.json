@@ -156,7 +156,7 @@
               "custom_font_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0081\/7853\/2411\/files\/Kanit-SemiBold.woff2?v=1703269051",
               "apply_h1": false,
               "apply_h2": false,
-              "apply_h3": false,
+              "apply_h3": true,
               "apply_h4": false,
               "apply_h5": false,
               "apply_h6": false,
