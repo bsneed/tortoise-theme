@@ -1,69 +1,73 @@
-<div class="tickerwrapper">
-   <ul class='list'>
-      <li class='listitem'>
-        <span>This is list item 1</span>
-      </li>
-  </ul>
-</div>
+<div class="example1">
+    <span>
+      <a href="#">Title 1</a>
+      <a href="#">Title 2</a>
+      <a href="#">Title 3</a>
+      <a href="#">Title 4</a>
+      <a href="#">Title 5</a>
+    </span>
+  </div>
 
-<style>
-  *, *::before, *::after{
-    -webkit-box-sizing:padding-box;
-    box-sizing:padding-box;
-  }
-  
-  body{
-    background:#CCC;
-  }
-  
-  body,
-  div,
-  ul,
-  li,
-  p {
-    margin: 0;
-    padding: 0;
-    font-family: verdana;
-    font-size: 16pt;
-  }
-  
-  .tickerwrapper {
-    /* the outer div */
-    position: relative;
-    top: 30px;
-    left:0%;
-    border: 1px solid #444;
-    background: #fff;
-    width: 99.9%;
-    height: 30px;
-    overflow: hidden;
-    cursor: pointer;
-  }
-  
-  ul.list {
-    position: relative;
-    display: inline-block;
-    list-style: none;
-    padding:0;
-    margin:0;
-  }
-  
-  ul.list.cloned {
-    position: absolute;
-    top: 0px;
-    left: 0px;
-  }
-  
-  ul.list li {
-    float: left;
-    padding-left: 20px;
-  }
-</style>
+  <style>
+    .example1 {
+      height: 50px;	
+      overflow: hidden;
+      position: relative;
+    }
+    .example1 span {
+      font-size: 2em;
+      color: limegreen;
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      margin: 0;
+      line-height: 50px;
+      text-align: center;
+      -moz-transform:translateX(100%);
+      -webkit-transform:translateX(100%);	
+      transform:translateX(100%);
+      -moz-animation: example1 15s linear infinite;
+      -webkit-animation: example1 15s linear infinite;
+      animation: example1 15s linear infinite;
+    }
+    .example1 span a {
+      margin-right:50px; 
+    }
+    
+    @-moz-keyframes example1 {
+      0%   { -moz-transform: translateX(100%); }
+      100% { -moz-transform: translateX(-100%); }
+    }
+    @-webkit-keyframes example1 {
+      0%   { -webkit-transform: translateX(100%); }
+      100% { -webkit-transform: translateX(-100%); }
+    }
+    
+    @keyframes example1 {
+      0% { 
+        -moz-transform: translateX(100%);
+        -webkit-transform: translateX(100%);
+        transform: translateX(100%); 		
+      }
+      100% { 
+        -moz-transform: translateX(-100%);
+        -webkit-transform: translateX(-100%);
+        transform: translateX(-100%); 
+      }
+    }
+  </style>
 
 {% schema %}
 {
   "name": "Scroller",
-  "settings": [],
+  "settings": [
+    {
+      "type": "inline_richtext",
+      "id": "heading",
+      "default": "Talk about your brand",
+      "label": "t:sections.scroller.heading"
+    }
+  ],
   "presets": [
     {
       "name": "Scroller"
