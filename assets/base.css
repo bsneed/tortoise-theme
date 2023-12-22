@@ -2885,9 +2885,15 @@ details[open] > .header__menu-item .icon-caret {
   text-decoration-line: underline;
 }
 
+.icon-caret {
+  stroke-width: 2px;
+  width: 12px;
+  height: 12px;
+}
+
 .header__menu-item .icon-caret {
   right: 0.8rem;
-  stroke-width: 2;
+  stroke-width: 2px;
   width: 12px;
   height: 12px;
 }
