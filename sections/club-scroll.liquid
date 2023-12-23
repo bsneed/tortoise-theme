@@ -20,11 +20,11 @@
 <div id="supermarquee"></div>
 
 {% javascript %}
-  {% if section.settings.heading != blank -%}
+  {%- if section.settings.heading != blank -%}
 new SuperMarquee( document.getElementById( "supermarquee" ), {
     "content" : '{{ section.settings.heading }}',
 });
-  {% endif %}
+  {%- endif -%}
 {% endjavascript %}
 
 <style>
