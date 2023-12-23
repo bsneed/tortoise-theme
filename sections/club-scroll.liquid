@@ -19,11 +19,11 @@
 
 <div id="supermarquee"></div>
 
-<script>
+{% javascript %}
 new SuperMarquee( document.getElementById( "supermarquee" ), {
     "content" : "{{ section.settings.heading }}",
 });
-</script>
+{% endjavascript %}
 
 <style>
   #supermarquee {
