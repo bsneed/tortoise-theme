@@ -141,7 +141,7 @@
         "image-with-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>We do.  The best boards in the industry as a matter of fact!  Don't believe it?  Go see for yourself.  &lt;link&gt;<\/p>",
+            "text": "<h3>We do.  The best boards in the industry as a matter of fact!  Don't believe it?  Go see for yourself.  &lt;link&gt;<\/h3>",
             "text_style": "body"
           }
         }
