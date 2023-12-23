@@ -163,6 +163,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
           };
           localStorage.setItem("discountCode", JSON.stringify(localStorageValue));
           if(totalCartSelector) totalCartSelector.innerHTML = "<s>" + data.checkout.total_line_items_price + "</s>" + data.checkout.total_price;
+          window.location.reload();
         }else{
           if(discountCodeValue) discountCodeValue.innerHTML = "";
           clearLocalStorage();
