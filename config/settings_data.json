@@ -196,7 +196,7 @@
               "apply_h4": false,
               "apply_h5": false,
               "apply_h6": false,
-              "apply_span": false,
+              "apply_span": true,
               "apply_p": false,
               "apply_custom": ""
             }
