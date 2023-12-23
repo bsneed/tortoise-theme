@@ -17,130 +17,19 @@
 </div>
 {% endcomment %}
 
-<div class="page-width section-{{ section.id }}-padding">
-  <div class="wrapper">
-    <div class="marquee">
-      <p>
-      {%- if section.settings.heading != blank -%}
-        {{ section.settings.heading }}
-      {%- endif -%}
-      </p>
-      <p>
-      {%- if section.settings.heading != blank -%}
-        {{ section.settings.heading }}
-      {%- endif -%}
-      </p>
-      <p>
-      {%- if section.settings.heading != blank -%}
-        {{ section.settings.heading }}
-      {%- endif -%}
-      </p>
-      <p>
-      {%- if section.settings.heading != blank -%}
-        {{ section.settings.heading }}
-      {%- endif -%}
-      </p>
-      <p>
-      {%- if section.settings.heading != blank -%}
-        {{ section.settings.heading }}
-      {%- endif -%}
-      </p>
-      <p>
-      {%- if section.settings.heading != blank -%}
-        {{ section.settings.heading }}
-      {%- endif -%}
-      </p>
-    </div>
-  </div>
+<div id="supermarquee">
+  {%- if section.settings.heading != blank -%}
+      {{ section.settings.heading }}
+  {%- endif -%}
 </div>
 
-  <style>
-    .wrapper {
-      overflow: hidden;
-      position: relative;
-      color: white;
-      background-color: black;
-      vertical-align: middle;
-      padding: 0;
-    }
-    
-    .marquee {
-      white-space: nowrap;
-      overflow: hidden;
-      display: inline-block;
-      animation: marquee 10s linear infinite;
-      padding: 0;
-    }
-    
-    .marquee p {
-      display: inline-block;
-      font-family: "Kanit-Regular";
-      font-size: 22pt;
-      padding: 0;
-      vertical-align: middle;
-    }
-    
-    @keyframes marquee {
-      0% {
-        transform: translate3d(0, 0, 0);
-      }
-      100% {
-        transform: translate3d(-50%, 0, 0);
-      }
-    }
-    
-    .clubScroll {
-      height: 50px;	
-      overflow: hidden;
-      position: relative;
-      background-color: black;
-      vertical-align: middle;
-    }
-    .clubScroll span {
-      text-transform: uppercase;
-      font-size: 2em;
-      position: absolute;
-      vertical-align: middle;
-      background-color: black;
-      color: white;
-      --color-foreground: white;
-      margin: 0;
-      line-height: 50px;
-      text-align: center;
-      -moz-transform:translateX(100%);
-      -webkit-transform:translateX(100%);	
-      transform:translateX(100%);
-      -moz-animation: clubScroll 10s linear infinite;
-      -webkit-animation: clubScroll 10s linear infinite;
-      animation: clubScroll 10s linear infinite;
-      font-family: "Kanit-Regular";
-    }
-    .clubScroll span a {
-      margin-right:50px; 
-    }
-    
-    @-moz-keyframes clubScroll {
-      0%   { -moz-transform: translateX(100%); }
-      100% { -moz-transform: translateX(-100%); }
-    }
-    @-webkit-keyframes clubScroll {
-      0%   { -webkit-transform: translateX(100%); }
-      100% { -webkit-transform: translateX(-100%); }
-    }
-    
-    @keyframes clubScroll {
-      0% { 
-        -moz-transform: translateX(100%);
-        -webkit-transform: translateX(100%);
-        transform: translateX(100%); 		
-      }
-      100% { 
-        -moz-transform: translateX(-100%);
-        -webkit-transform: translateX(-100%);
-        transform: translateX(-100%); 
-      }
-    }
-  </style>
+<style>
+  #supermarquee {
+   color: white;
+   background-color: black;
+   font-size: 48px;
+  }
+</style>
 
 {% schema %}
 {
