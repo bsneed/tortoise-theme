@@ -31,7 +31,7 @@
             "label": "Slash"
           }
         ],
-        "default": "angle_right"
+        "default": "slash"
       },
       {
         "type": "color",
