@@ -255,10 +255,12 @@
 
     {{ 'base.css' | asset_url | stylesheet_tag }}
 
-    <link rel="preload" href="https://cdn.shopify.com/s/files/1/0081/7853/2411/files/Kanit-Black.woff2" as="font" type="font/woff2" crossorigin>
-    <link rel="preload" href="https://cdn.shopify.com/s/files/1/0081/7853/2411/files/Kanit-SemiBold.woff2" as="font" type="font/woff2" crossorigin>
-    <link rel="preload" href="https://cdn.shopify.com/s/files/1/0081/7853/2411/files/Kanit-Bold.woff2" as="font" type="font/woff2" crossorigin>
-
+    {{ 'Kanit-Black.woff2' | asset_url | preload_tag: as: 'font' }}
+    {{ 'Kanit-SemiBold.woff2' | asset_url | preload_tag: as: 'font' }}
+    {{ 'Kanit-Bold.woff2' | asset_url | preload_tag: as: 'font' }}
+    {{ 'Kanit-Regular.woff2' | asset_url | preload_tag: as: 'font' }}
+    {{ 'Kanit-Medium.woff2' | asset_url | preload_tag: as: 'font' }}
+    
     {%- unless settings.type_body_font.system? -%}
       <link rel="preload" as="font" href="{{ settings.type_body_font | font_url }}" type="font/woff2" crossorigin>
     {%- endunless -%}
