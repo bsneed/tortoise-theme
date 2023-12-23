@@ -17,12 +17,13 @@
 </div>
 {% endcomment %}
 
-<div id="supermarquee"></div>
+<div id="supermarquee" content="{{ section.settings.heading }}"></div>
 
 <script>
     //$(document).ready(function(){
-      new SuperMarquee( document.getElementById( "supermarquee" ), {
-        "content" : " {{ section.settings.heading }}"
+      let div = document.getElementById("supermarquee");
+      new SuperMarquee( div, {
+        "content" : div.content,
       });
     //});
 </script>
