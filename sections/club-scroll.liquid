@@ -13,9 +13,32 @@
     {%- endif -%}
     </span>
   </div>
+
+  <div class="bg-marquee">
+    {%- if section.settings.heading != blank -%}
+      <a>
+        "{{ section.settings.heading }}"
+      </a>
+    {%- endif -%}
+  </div>
 </div>
 
   <style>
+    .bg-marquee {
+        background-color: blue;
+        height: 50px;
+        width: 100%;
+        background-image: url(https://sligoil.com/wp-content/uploads/2022/02/icons-long-01.svg);
+        background-repeat: repeat-x;
+        background-size: 1000px auto;
+        animation: marquee 5s infinite linear;
+    }
+    
+    @keyframes marquee {
+        0% { background-position: 0; }
+        100% { background-position: -1000px; }
+    }
+    
     .clubScroll {
       height: 50px;	
       overflow: hidden;
