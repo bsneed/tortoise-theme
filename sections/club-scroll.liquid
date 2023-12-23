@@ -21,22 +21,40 @@
       </a>
     {%- endif -%}
   </div>
+
+  <div class="wrapper">
+    <div class="marquee">
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce volutpat, ante eu bibendum tincidunt, sem lacus vehicula augue, ut suscipit.
+      </p>
+    </div>
+  </div>
 </div>
 
   <style>
-    .bg-marquee {
-        background-color: blue;
-        height: 50px;
-        width: 100%;
-        background-image: url(https://sligoil.com/wp-content/uploads/2022/02/icons-long-01.svg);
-        background-repeat: repeat-x;
-        background-size: 1000px auto;
-        animation: marquee 5s infinite linear;
+    .wrapper {
+      max-width: 100%;
+      overflow: hidden;
+    }
+    
+    .marquee {
+      white-space: nowrap;
+      overflow: hidden;
+      display: inline-block;
+      animation: marquee 10s linear infinite;
+    }
+    
+    .marquee p {
+      display: inline-block;
     }
     
     @keyframes marquee {
-        0% { background-position: 0; }
-        100% { background-position: -1000px; }
+      0% {
+        transform: translate3d(0, 0, 0);
+      }
+      100% {
+        transform: translate3d(-50%, 0, 0);
+      }
     }
     
     .clubScroll {
