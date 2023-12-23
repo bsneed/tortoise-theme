@@ -17,11 +17,13 @@
 </div>
 {% endcomment %}
 
-<div id="supermarquee">
-  {%- if section.settings.heading != blank -%}
-      {{ section.settings.heading }}
-  {%- endif -%}
-</div>
+<div id="supermarquee"></div>
+
+{% javascript %}
+new SuperMarquee( document.getElementById( "supermarquee" ), {
+    "content" : "{{ section.settings.heading }}",
+});
+{% endjavascript %}
 
 <style>
   #supermarquee {
