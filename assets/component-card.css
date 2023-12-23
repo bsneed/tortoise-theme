@@ -465,3 +465,7 @@
     clip-path: polygon(var(--shape--blob-5));
   }
 }
+
+.card.card--product.card--outline {
+    border: none;
+}
