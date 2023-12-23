@@ -258,7 +258,14 @@
     <link rel="preload" href="https://cdn.shopify.com/s/files/1/0081/7853/2411/files/Kanit-Black.woff2" as="font" type="font/woff2" crossorigin>
     <link rel="preload" href="https://cdn.shopify.com/s/files/1/0081/7853/2411/files/Kanit-SemiBold.woff2" as="font" type="font/woff2" crossorigin>
     <link rel="preload" href="https://cdn.shopify.com/s/files/1/0081/7853/2411/files/Kanit-Bold.woff2" as="font" type="font/woff2" crossorigin>
-    
+
+    {%- unless settings.type_body_font.system? -%}
+      <link rel="preload" as="font" href="{{ settings.type_body_font | font_url }}" type="font/woff2" crossorigin>
+    {%- endunless -%}
+    {%- unless settings.type_header_font.system? -%}
+      <link rel="preload" as="font" href="{{ settings.type_header_font | font_url }}" type="font/woff2" crossorigin>
+    {%- endunless -%}
+
 
     {%- if localization.available_countries.size > 1 or localization.available_languages.size > 1 -%}
       {{ 'component-localization-form.css' | asset_url | stylesheet_tag: preload: true }}
