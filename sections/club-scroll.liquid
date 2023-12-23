@@ -20,12 +20,12 @@
 <div id="supermarquee" content="{{ section.settings.heading }}"></div>
 
 {% javascript %}
-    //$(document).ready(function(){
+    $(document).ready(function(){
       let div = document.getElementById("supermarquee");
       new SuperMarquee(div, {
-        "content" : div.content,
+        "content" : div.getAttribute("content"),
       });
-    //});
+    });
 {% endjavascript %}
 
 <style>
