@@ -201,13 +201,32 @@
               "apply_p": false,
               "apply_custom": ""
             }
+          },
+          "0ef254b9-ec0c-4e13-80ed-c59d851dd405": {
+            "type": "image",
+            "settings": {
+              "name": "Kanit-Medium",
+              "custom_font_weight": "none",
+              "custom_font_style": "none",
+              "custom_font_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0081\/7853\/2411\/files\/Kanit-Medium.woff2?v=1703269051",
+              "apply_h1": false,
+              "apply_h2": false,
+              "apply_h3": false,
+              "apply_h4": false,
+              "apply_h5": false,
+              "apply_h6": false,
+              "apply_span": false,
+              "apply_p": false,
+              "apply_custom": ""
+            }
           }
         },
         "block_order": [
           "452036c0-cda3-4da9-bea6-606938712e2b",
           "cd5b38e0-7017-4674-925a-7093ac959554",
           "7d1a2b91-0c67-4c22-9a2e-bd09a35d792d",
-          "fb72aac3-58a1-4402-b448-5b5bdc9719c0"
+          "fb72aac3-58a1-4402-b448-5b5bdc9719c0",
+          "0ef254b9-ec0c-4e13-80ed-c59d851dd405"
         ],
         "settings": {
           "enable": true
