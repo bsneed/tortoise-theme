@@ -1,22 +1,3 @@
-{% comment %}
-<div class="page-width section-{{ section.id }}-padding">
-  <div class="clubScroll">
-    <span>
-    {%- if section.settings.heading != blank -%}
-      <a>
-        {{ section.settings.heading }}
-      </a>
-    {%- endif -%}
-    {%- if section.settings.heading != blank -%}
-      <a>
-        {{ section.settings.heading }}
-      </a>
-    {%- endif -%}
-    </span>
-  </div>
-</div>
-{% endcomment %}
-
 <div id="supermarquee" content="{{ section.settings.heading }}"></div>
 
 {% javascript %}
@@ -28,9 +9,10 @@
 
 <style>
   #supermarquee {
-   color: white;
-   background-color: black;
-   font-size: 48px;
+    color: white;
+    background-color: black;
+    font-size: 22px;
+    font-family: "Kanit-Regular";
   }
 </style>
 
