@@ -3531,10 +3531,6 @@ details-disclosure > details {
     text-decoration: underline;
 }
 
-.card.card--product.card--outline {
-    border: none;
-}
-
 div svg path {
   stroke: #000000;
   stroke-width: 1px;
