@@ -92,7 +92,8 @@
 document.addEventListener("DOMContentLoaded", function(event) {
   let discountCodeInput = document.querySelector("#discount-code-input");
   applyBtn.addEventListener("click", function(e){
-      e.preventDefault()
+      console.log("got here");
+      e.preventDefault();
       document.cookie = 'discount_code=' + discountCodeInput.value;
       window.location.reload();
     });
