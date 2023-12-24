@@ -89,12 +89,14 @@
   <button id="apply-discount-btn">APPLY</button>
 </div>
 <script>
-let discountCodeInput = document.querySelector("#discount-code-input");
-applyBtn.addEventListener("click", function(e){
-    e.preventDefault()
-    document.cookie = 'discount_code=' + discountCodeInput.value;
-    window.location.reload();
-  });
+document.addEventListener("DOMContentLoaded", function(event) {
+  let discountCodeInput = document.querySelector("#discount-code-input");
+  applyBtn.addEventListener("click", function(e){
+      e.preventDefault()
+      document.cookie = 'discount_code=' + discountCodeInput.value;
+      window.location.reload();
+    });
+});
   /*
 document.addEventListener("DOMContentLoaded", function(event) { 
   let clearBtn = document.querySelector("#clear-discount-btn");
