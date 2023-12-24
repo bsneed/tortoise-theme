@@ -162,7 +162,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
             'totalCart': data.checkout.total_line_items_price
           };
           localStorage.setItem("discountCode", JSON.stringify(localStorageValue));
-          if(totalCartSelector) totalCartSelector.innerHTML = "<s>" + data.checkout.total_line_items_price + "</s>" + data.checkout.total_price;
+          if(totalCartSelector) totalCartSelector.innerHTML = "<s>was " + data.checkout.total_line_items_price + "</s></br>" + data.checkout.total_price;
         }else{
           if(discountCodeValue) discountCodeValue.innerHTML = "";
           clearLocalStorage();
