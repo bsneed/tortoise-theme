@@ -114,6 +114,8 @@
     "show_vendor": false,
     "show_cart_note": false,
     "cart_drawer_collection": "",
+    "checkout_logo_image": "shopify:\/\/shop_images\/logo_d1930bc9-ffcd-4410-8408-7ec9f3911b6e.png",
+    "checkout_logo_size": "medium",
     "sections": {
       "main-password-header": {
         "type": "main-password-header",
