@@ -28,6 +28,7 @@
       "blocks": {
         "heading": {
           "type": "heading",
+          "disabled": true,
           "settings": {
             "heading": "welcome to our store",
             "heading_size": "h0"
@@ -35,6 +36,7 @@
         },
         "text": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "Vestibulum non congue massa. Duis justo libero, blandit in pretium sed, cursus eget lorem. Sed eleifend pretium ante, eu finibus tellus suscipit non. ",
             "text_style": "body"
@@ -42,6 +44,7 @@
         },
         "button": {
           "type": "buttons",
+          "disabled": true,
           "settings": {
             "button_label_1": "CLICK OR NOT ...",
             "button_link_1": "shopify:\/\/collections\/all",
@@ -58,9 +61,9 @@
         "button"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/410754025_1579164089499204_7054264725519658117_n.jpg",
-        "image_overlay_opacity": 40,
-        "image_height": "small",
+        "image": "shopify:\/\/shop_images\/whitaker_banner.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
         "desktop_content_position": "middle-left",
         "show_text_box": false,
         "desktop_content_alignment": "left",
