@@ -61,6 +61,7 @@
         "button"
       ],
       "settings": {
+        "image_link": "shopify:\/\/collections\/whitaker",
         "image": "shopify:\/\/shop_images\/whitaker_banner.jpg",
         "image_overlay_opacity": 0,
         "image_height": "medium",
