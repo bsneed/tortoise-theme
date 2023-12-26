@@ -58,8 +58,8 @@
         "button"
       ],
       "settings": {
-        "image_link": "",
-        "image": "shopify:\/\/shop_images\/whitaker_banner.jpg",
+        "image_link": "shopify:\/\/collections\/whitaker",
+        "image": "shopify:\/\/shop_images\/whitaker_banner2_45d007c9-0275-4a05-89bb-960f503f15ae.jpg",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "desktop_content_position": "middle-left",
