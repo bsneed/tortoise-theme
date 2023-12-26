@@ -117,11 +117,9 @@
     </div>
   {%- endif -%}
   {% if section.settings.image_link != blank %}
-    <a href="{{ section.settings.image_link }}" style="position=absolute;top=0;left=0;bottom=0;right=0;width=100%;height=100%;">
     <div class="banner__content banner__content--{{ section.settings.desktop_content_position }} page-width{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
-      
+      <a href="{{ section.settings.image_link }}" style="position=absolute;top=0;left=0;bottom=0;right=0;width=100%;height=100%;"></a>
     </div>
-    </a>
   {% else %}
   <div class="banner__content banner__content--{{ section.settings.desktop_content_position }} page-width{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
     <div class="banner__box content-container content-container--full-width-mobile color-{{ section.settings.color_scheme }} gradient">
