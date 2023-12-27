@@ -109,13 +109,6 @@
             "collection": ""
           }
         },
-        "product": {
-          "type": "product",
-          "settings": {
-            "product": "",
-            "second_image": false
-          }
-        },
         "collection-1": {
           "type": "collection",
           "settings": {
@@ -125,11 +118,10 @@
       },
       "block_order": [
         "collection-0",
-        "product",
         "collection-1"
       ],
       "settings": {
-        "heading": "Multimedia collage",
+        "heading": "",
         "heading_size": "h2",
         "desktop_layout": "left",
         "mobile_layout": "collage",
@@ -159,8 +151,8 @@
         "column1": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "title": "heading",
+            "text": "<p>desc<\/p>",
             "link_label": "",
             "link": ""
           }
