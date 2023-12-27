@@ -8,7 +8,7 @@
 }
 
 .collage__item > * {
-  width: 100%;
+  width: 50%;
 }
 
 .collage__item .card__content {
