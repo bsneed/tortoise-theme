@@ -72,6 +72,41 @@
         "show_text_below": false
       }
     },
+    "9104fb3f-3403-4cec-b056-b04940b38638": {
+      "type": "club-collage",
+      "blocks": {
+        "template--14705706139683__9104fb3f-3403-4cec-b056-b04940b38638-image-1": {
+          "type": "image",
+          "settings": {
+          }
+        },
+        "b17eaffb-716e-4eab-bcd4-745854c224a6": {
+          "type": "image",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "template--14705706139683__9104fb3f-3403-4cec-b056-b04940b38638-image-1",
+        "b17eaffb-716e-4eab-bcd4-745854c224a6"
+      ],
+      "settings": {
+        "heading": "Multimedia collage",
+        "heading_size": "h1",
+        "desktop_layout": "right",
+        "mobile_layout": "column",
+        "card_styles": "product-card-wrapper",
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 16
+      }
+    },
+    "b1d4b7bc-5a95-46e4-a9eb-e6fd2157b0cc": {
+      "type": "club-scroll",
+      "settings": {
+        "heading": "ONLY AVAILABLE UNTIL MONDAY.  DON'T MISS!"
+      }
+    },
     "featured_collection": {
       "type": "featured-collection",
       "settings": {
@@ -197,21 +232,16 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
-    },
-    "b1d4b7bc-5a95-46e4-a9eb-e6fd2157b0cc": {
-      "type": "club-scroll",
-      "settings": {
-        "heading": "ONLY AVAILABLE UNTIL MONDAY.  DON'T MISS!"
-      }
     }
   },
   "order": [
     "rich_text",
     "image_banner",
+    "9104fb3f-3403-4cec-b056-b04940b38638",
+    "b1d4b7bc-5a95-46e4-a9eb-e6fd2157b0cc",
     "featured_collection",
     "collage",
     "video",
-    "multicolumn",
-    "b1d4b7bc-5a95-46e4-a9eb-e6fd2157b0cc"
+    "multicolumn"
   ]
 }
