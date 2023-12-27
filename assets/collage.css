@@ -105,7 +105,7 @@
   .collage__item--collection:only-child,
   .collage__item--product:only-child {
     justify-self: center;
-    max-width: 53rem;
+    max-width: 73rem;
     width: 100%;
   }
 }
