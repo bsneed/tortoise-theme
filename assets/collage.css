@@ -68,7 +68,7 @@
   }
 
   .collage__item--left:nth-child(3n - 2):last-child {
-    grid-column: 1 / span 3;
+    grid-column: 1 / span 2;
   }
 
   .collage__item--left:nth-child(3n - 1),
