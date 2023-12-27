@@ -78,11 +78,13 @@
         "template--14705706139683__9104fb3f-3403-4cec-b056-b04940b38638-image-1": {
           "type": "image",
           "settings": {
+            "image_link": "shopify:\/\/collections\/decks"
           }
         },
         "b17eaffb-716e-4eab-bcd4-745854c224a6": {
           "type": "image",
           "settings": {
+            "image_link": ""
           }
         }
       },
