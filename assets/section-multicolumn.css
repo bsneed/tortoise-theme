@@ -206,6 +206,15 @@
   text-align: right;
 }
 
+@media screen and (min-width: 750px) {
+.multicolumn-card h3 {
+  font-size: 7vw;
+  font-family: "Kanit-Bold" !important;
+  text-transform: lowercase;
+  text-align: right;
+}
+}
+
 .multicolumn-card2 h3 {
   font-size: 2em;
   font-family: "Kanit-Bold" !important;
