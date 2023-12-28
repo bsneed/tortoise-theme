@@ -194,6 +194,7 @@
   font-size: 5vw;
   font-family: "Kanit-Bold" !important;
   text-transform: lowercase;
+  text-align: right;
 }
 
 .multicolumn-card p {
@@ -201,6 +202,7 @@
   font-family: "Kanit-Light" !important;
   text-transform: uppercase;
   line-height: 1.5em;
+  text-align: right;
 }
 
 .multicolumn-card > .multicolumn-card__image-wrapper--full-width:not(.multicolumn-card-spacing) {
