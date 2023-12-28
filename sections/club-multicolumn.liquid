@@ -78,13 +78,15 @@
 
           {%- liquid
              if block.settings.text_style == "white"
-               assign textcolor = "color:white;background-color:black;"
+               assign textcolor = "color:white"
+               assign backgroundcolor = "background-color:black"
              else
-               assign textcolor = "color:black;background-color:white;"
+               assign textcolor = "color:black"
+               assign backgroundcolor = "background-color:black"
              endif
           -%}
 
-            <div class="multicolumn-card content-container" style="{{ textcolor }}">
+            <div class="multicolumn-card content-container">
               {%- if block.settings.image != blank -%}
                 {% if section.settings.image_ratio == 'adapt' or section.settings.image_ratio == 'circle' %}
                   {% assign spaced_image = true %}
@@ -129,12 +131,12 @@
                         class: 'multicolumn-card__image'
                     }}
                 
-                    <div class="multicolumn-card__info" style="{{ textcolor }}">
+                    <div class="multicolumn-card__info">
                       {%- if block.settings.title != blank -%}
-                        <h3 class="inline-richtext" style="{{ textcolor }}">{{ block.settings.title }}</h3>
+                        <h3 class="inline-richtext" style="{{ textcolor }};{{ backgroundcolor }};">{{ block.settings.title }}</h3>
                       {%- endif -%}
                       {%- if block.settings.text != blank -%}
-                        <div class="rte" style="{{ textcolor }}">{{ block.settings.text }}</div>
+                        <div class="rte" style="{{ textcolor }};{{ backgroundcolor }};">{{ block.settings.text }}</div>
                       {%- endif -%}
                       {%- if block.settings.link_label != blank -%}
                         <a
