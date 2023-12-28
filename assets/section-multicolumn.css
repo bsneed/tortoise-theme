@@ -190,6 +190,11 @@
   box-sizing: border-box;
 }
 
+.multicolumn-card2 {
+  position: relative;
+  box-sizing: border-box;
+}
+
 .multicolumn-card h3 {
   font-size: 5vw;
   font-family: "Kanit-Bold" !important;
