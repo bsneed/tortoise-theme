@@ -72,7 +72,7 @@
             {{ block.shopify_attributes }}
             {% if settings.animations_reveal_on_scroll %}
               data-cascade
-              style="background-color:clear;--animation-order: {{ forloop.index }};"
+              style="--animation-order: {{ forloop.index }};"
             {% endif %}
           >
 
@@ -87,7 +87,7 @@
               if block.settings.image == blank
                 assign containerStyle = backgroundColor
               else
-                assign containerStyle = ""
+                assign containerStyle = "background-color:clear"
               endif
             %}
 
