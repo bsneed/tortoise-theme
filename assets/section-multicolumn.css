@@ -206,7 +206,7 @@
   text-align: right;
 }
 
-@media screen and (min-width: 750px) {
+@media screen and (max-width: 749px) {
 .multicolumn-card h3 {
   font-size: 7vw;
   font-family: "Kanit-Bold" !important;
