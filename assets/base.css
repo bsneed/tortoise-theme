@@ -3538,7 +3538,7 @@ div svg path {
 
 /* width */
 ::-webkit-scrollbar {
-  width: 14px;
+  width: 16px;
 }
 
 /* Track */
