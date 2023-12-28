@@ -160,7 +160,7 @@
               "apply_h1": false,
               "apply_h2": false,
               "apply_h3": false,
-              "apply_h4": false,
+              "apply_h4": true,
               "apply_h5": false,
               "apply_h6": false,
               "apply_span": true,
