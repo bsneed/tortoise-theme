@@ -76,13 +76,13 @@
             {% endif %}
           >
 
-          {% liquid
+          {%- liquid
              if block.settings.text_style == white
                assign textcolor = "color:white;"
              else
                assign textcolor = "color:black;"
              endif
-          %}
+          -%}
 
             <div class="multicolumn-card content-container" style="{{ textcolor }}">
               {%- if block.settings.image != blank -%}
