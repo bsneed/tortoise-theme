@@ -75,7 +75,16 @@
               style="--animation-order: {{ forloop.index }};"
             {% endif %}
           >
-            <div class="multicolumn-card content-container">
+
+          {%- liquid
+             if block.settings.text_style == white
+               assign textcolor = "color:white;"
+             else
+               assign textcolor = "color:black;"
+             endif
+          %}
+
+            <div class="multicolumn-card content-container" style="{{ textcolor }}">
               {%- if block.settings.image != blank -%}
                 {% if section.settings.image_ratio == 'adapt' or section.settings.image_ratio == 'circle' %}
                   {% assign spaced_image = true %}
@@ -119,14 +128,6 @@
                         sizes: sizes,
                         class: 'multicolumn-card__image'
                     }}
-
-                    {%- liquid
-                       if block.settings.text_style == white
-                         assign textcolor = "color:white;"
-                       else
-                         assign textcolor = "color:black;"
-                       endif
-                    %}
                 
                     <div class="multicolumn-card__info" style="color:white;">
                       {%- if block.settings.title != blank -%}
