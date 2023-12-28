@@ -120,10 +120,10 @@
               {%- endif -%}
               <div class="multicolumn-card__info">
                 {%- if block.settings.title != blank -%}
-                  <h3 class="inline-richtext" style="font-size:2em;">{{ block.settings.title }}</h3>
+                  <h3 class="inline-richtext" style="font-size:2em;text-transform:uppercase;">{{ block.settings.title }}</h3>
                 {%- endif -%}
                 {%- if block.settings.text != blank -%}
-                  <div class="rte" style="font-size:2em;">{{ block.settings.text }}</div>
+                  <div class="rte" style="font-size:2em;"><h4>{{ block.settings.text }}</h4></div>
                 {%- endif -%}
                 {%- if block.settings.link_label != blank -%}
                   <a
