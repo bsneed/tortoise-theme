@@ -133,10 +133,10 @@
                 
                     <div class="multicolumn-card__info">
                       {%- if block.settings.title != blank -%}
-                        <h3 class="inline-richtext" style="{{ textcolor }};{{ backgroundcolor }};">{{ block.settings.title }}</h3>
+                        <h3 class="inline-richtext" style="{{ textcolor }};">{{ block.settings.title }}</h3>
                       {%- endif -%}
                       {%- if block.settings.text != blank -%}
-                        <div class="rte" style="{{ textcolor }};{{ backgroundcolor }};">{{ block.settings.text }}</div>
+                        <div class="rte" style="{{ textcolor }};">{{ block.settings.text }}</div>
                       {%- endif -%}
                       {%- if block.settings.link_label != blank -%}
                         <a
@@ -146,9 +146,10 @@
                           {% else %}
                             href="{{ block.settings.link }}"
                           {% endif %}
+                            style="{{ textcolor }};"
                         >
                           {{- block.settings.link_label | escape -}}
-                          <span class="icon-wrap">&nbsp;{% render 'icon-arrow' %}</span></a
+                          <span class="icon-wrap" style="{{ textcolor }}">&nbsp;{% render 'icon-arrow' %}</span></a
                         >
                       {%- endif -%}
                     </div>
@@ -160,10 +161,10 @@
               {%- else -%}
               <div class="multicolumn-card__info">
                 {%- if block.settings.title != blank -%}
-                  <h3 class="inline-richtext">{{ block.settings.title }}</h3>
+                  <h3 class="inline-richtext" style="{{ textcolor }};{{ backgroundcolor }};">{{ block.settings.title }}</h3>
                 {%- endif -%}
                 {%- if block.settings.text != blank -%}
-                  <div class="rte">{{ block.settings.text }}</div>
+                  <div class="rte" style="{{ textcolor }};{{ backgroundcolor }};">{{ block.settings.text }}</div>
                 {%- endif -%}
                 {%- if block.settings.link_label != blank -%}
                   <a
@@ -173,9 +174,10 @@
                     {% else %}
                       href="{{ block.settings.link }}"
                     {% endif %}
+                      style="{{ textcolor }};{{ backgroundcolor }};"
                   >
                     {{- block.settings.link_label | escape -}}
-                    <span class="icon-wrap">&nbsp;{% render 'icon-arrow' %}</span></a
+                    <span class="icon-wrap" style="{{ textcolor }};{{ backgroundcolor }};">&nbsp;{% render 'icon-arrow' %}</span></a
                   >
                 {%- endif -%}
               </div>
