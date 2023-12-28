@@ -44,7 +44,7 @@
     max-width: 78rem;
     text-align: left;
   }
-  .rich-text__blocks h0 {
+  .rich-text__blocks .h0 {
     font-size: 1vw !important;
   }
 }
