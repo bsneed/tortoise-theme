@@ -76,22 +76,22 @@
             {% endif %}
           >
 
-          {%- liquid
-             if block.settings.text_style == "white"
-               assign textcolor = "color:white"
-               assign backgroundcolor = "background-color:black"
-             else
-               assign textcolor = "color:black"
-               assign backgroundcolor = "background-color:black"
-             endif
-          -%}
+            {% liquid
+              if block.settings.text_style == "white"
+                assign textcolor = "color:white"
+                assign backgroundcolor = "background-color:black"
+              else
+                assign textcolor = "color:black"
+                assign backgroundcolor = "background-color:black"
+              endif
+              if block.settings.image == blank
+                assign containerStyle = "{{ textcolor }};{{ backgroundcolor }};"
+              else
+                assign containerStyle = ""
+              endif
+            %}
 
-            {% if block.settings.image != blank %}
-            <div class="multicolumn-card content-container">
-            {% else %}
-            <div class="multicolumn-card content-container" style="{{ textcolor }};{{ backgroundcolor }};">
-            {% endif %}
-          
+            <div class="multicolumn-card content-container" styule="{{ containerStyle }}">
               {%- if block.settings.image != blank -%}
                 {% if section.settings.image_ratio == 'adapt' or section.settings.image_ratio == 'circle' %}
                   {% assign spaced_image = true %}
