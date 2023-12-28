@@ -86,7 +86,7 @@
               endif
             %}
 
-            <div class="multicolumn-card content-container" style="{{ textcolor }};{{ backgroundcolor }} !important;">
+            <div class="multicolumn-card content-container" style="{{ textcolor }};{{ backgroundcolor }} !important;vertical-align:bottom;">
               {%- if block.settings.image != blank -%}
                 {% if section.settings.image_ratio == 'adapt' or section.settings.image_ratio == 'circle' %}
                   {% assign spaced_image = true %}
@@ -131,7 +131,7 @@
                         class: 'multicolumn-card__image'
                     }}
                 
-                    <div class="multicolumn-card__info" style="vertical-align: text-bottom;">
+                    <div class="multicolumn-card__info">
                       {%- if block.settings.title != blank -%}
                         <h3 class="inline-richtext" style="{{ textcolor }};">{{ block.settings.title }}</h3>
                       {%- endif -%}
