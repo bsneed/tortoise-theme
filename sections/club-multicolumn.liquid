@@ -72,7 +72,7 @@
             {{ block.shopify_attributes }}
             {% if settings.animations_reveal_on_scroll %}
               data-cascade
-              style="--animation-order: {{ forloop.index }};"
+              style="background-color:clear;--animation-order: {{ forloop.index }};"
             {% endif %}
           >
 
@@ -164,7 +164,7 @@
                   </div>
                 </div>
               {%- else -%}
-              <div class="multicolumn-card__info" style="{{ textcolor }};{{ backgroundcolor }};">
+              <div class="multicolumn-card__info">
                 {%- if block.settings.title != blank -%}
                   <h3 class="inline-richtext" style="{{ textcolor }};{{ backgroundcolor }};">{{ block.settings.title }}</h3>
                 {%- endif -%}
