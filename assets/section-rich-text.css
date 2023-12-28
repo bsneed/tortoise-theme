@@ -20,7 +20,7 @@
 @media screen and (min-width: 750px) {
   .rich-text__wrapper {
     width: 100%;
-    font-size: 3vm !important;
+    font-size: 3vw !important;
   }
 
   .rich-text__wrapper--left {
@@ -33,6 +33,7 @@
 
   .rich-text__blocks {
     max-width: 50rem;
+    font-size: 3vw !important;
   }
 }
 
