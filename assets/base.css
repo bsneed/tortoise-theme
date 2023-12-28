@@ -3536,6 +3536,11 @@ div svg path {
   stroke-width: 1px;
 }
 
+.list-payment__item svg path {
+  stroke: #000000;
+  stroke-width: 0.5px;
+}
+
 /* width */
 ::-webkit-scrollbar {
   width: 16px;
