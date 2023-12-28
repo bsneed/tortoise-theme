@@ -3538,7 +3538,7 @@ div svg path {
 
 .list-payment__item svg path {
   stroke: #DDD;
-  stroke-width: 0.1px;
+  stroke-width: 0.5px;
 }
 
 /* width */
