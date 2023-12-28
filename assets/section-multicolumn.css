@@ -200,6 +200,7 @@
   font-size: 2vw;
   font-family: "Kanit-Regular";
   text-transform: uppercase;
+  line-height: 1.5em;
 }
 
 .multicolumn-card > .multicolumn-card__image-wrapper--full-width:not(.multicolumn-card-spacing) {
