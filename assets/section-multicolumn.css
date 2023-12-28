@@ -231,3 +231,7 @@
     display: list-item;
   }
 }
+
+.subcolumn {
+  column-count: 2;
+}
