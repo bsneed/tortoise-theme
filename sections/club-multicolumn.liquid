@@ -79,15 +79,15 @@
             {% liquid
               if block.settings.text_style == "white"
                 assign textcolor = "color:white"
-                assign backgroundcolor = "background-color:black"
+                assign backgroundcolor = "background:black"
               else
                 assign textcolor = "color:black"
-                assign backgroundcolor = "background-color:white"
+                assign backgroundcolor = "background:white"
               endif
               if block.settings.image == blank
                 assign containerStyle = backgroundColor
               else
-                assign containerStyle = "background-color:clear"
+                assign containerStyle = "background:clear"
               endif
             %}
 
