@@ -199,42 +199,45 @@
   box-sizing: border-box;
 }
 
-.multicolumn-card h3 {
-  font-size: 4vw;
-  font-family: "Kanit-Bold" !important;
-  text-transform: lowercase;
-  text-align: right;
-}
+/* for desktop */
+@media screen and (min-width: 750px) {
+  .multicolumn-card h3 {
+    font-size: 4vw;
+    font-family: "Kanit-Bold" !important;
+    text-transform: lowercase;
+    text-align: right;
+  }
 
-@media screen and (max-width: 990px) {
-.multicolumn-card h3 {
-  font-size: 7vw;
-  font-family: "Kanit-Bold" !important;
-  text-transform: lowercase;
-  text-align: right;
-}
   .multicolumn-card p {
-  font-size: 3vw;
-  font-family: "Kanit-Light" !important;
-  text-transform: uppercase;
-  line-height: 1.5em;
-  text-align: right;
+    font-size: 2vw;
+    font-family: "Kanit-Light" !important;
+    text-transform: uppercase;
+    line-height: 1.5em;
+    text-align: right;
+  }
 }
 
+/* for mobile */
+@media screen and (max-width: 749px) {
+  .multicolumn-card h3 {
+    font-size: 7vw;
+    font-family: "Kanit-Bold" !important;
+    text-transform: lowercase;
+    text-align: right;
+  }
+    .multicolumn-card p {
+    font-size: 3vw;
+    font-family: "Kanit-Light" !important;
+    text-transform: uppercase;
+    line-height: 1.5em;
+    text-align: right;
+  }
 }
 
 .multicolumn-card2 h3 {
   font-size: 2em;
   font-family: "Kanit-Bold" !important;
   text-transform: lowercase;
-  text-align: right;
-}
-
-.multicolumn-card p {
-  font-size: 2vw;
-  font-family: "Kanit-Light" !important;
-  text-transform: uppercase;
-  line-height: 1.5em;
   text-align: right;
 }
 
