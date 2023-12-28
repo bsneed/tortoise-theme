@@ -48,7 +48,7 @@
 
 .rich-text__blocks * {
   overflow-wrap: break-word;
-  font-size: 1vw;
+  font-size: 7vw;
 }
 
 .rich-text__blocks > * {
