@@ -72,50 +72,6 @@
         "show_text_below": false
       }
     },
-    "multicolumn": {
-      "type": "multicolumn",
-      "blocks": {
-        "column1": {
-          "type": "column",
-          "settings": {
-            "title": "heading",
-            "text": "<p>desc<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column2": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/391630749_18387302434042900_8795268565589097692_n.jpg",
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": "shopify:\/\/collections\/base-skateboards"
-          }
-        }
-      },
-      "block_order": [
-        "column1",
-        "column2"
-      ],
-      "settings": {
-        "title": "",
-        "heading_size": "h1",
-        "image_width": "full",
-        "image_ratio": "portrait",
-        "columns_desktop": 2,
-        "column_alignment": "center",
-        "background_style": "none",
-        "button_label": "",
-        "button_link": "",
-        "color_scheme": "scheme-1",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 12,
-        "padding_bottom": 12
-      }
-    },
     "9104fb3f-3403-4cec-b056-b04940b38638": {
       "type": "club-collage",
       "blocks": {
@@ -187,7 +143,6 @@
   "order": [
     "rich_text",
     "image_banner",
-    "multicolumn",
     "9104fb3f-3403-4cec-b056-b04940b38638",
     "b1d4b7bc-5a95-46e4-a9eb-e6fd2157b0cc",
     "featured_collection"
