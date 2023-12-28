@@ -203,7 +203,7 @@
 }
 
 .multicolumn-card2 h3 {
-  font-size: 3vw;
+  font-size: 2em;
   font-family: "Kanit-Bold" !important;
   text-transform: lowercase;
   text-align: right;
@@ -218,7 +218,7 @@
 }
 
 .multicolumn-card2 p {
-  font-size: 2vw;
+  font-size: 1.5em;
   font-family: "Kanit-SemiBold" !important;
   line-height: 1.5em;
   text-align: right;
