@@ -193,11 +193,13 @@
 .multicolumn-card h3 {
   font-size: 5vw;
   font-family: "Kanit-Bold";
+  text-transform: lowercase;
 }
 
 .multicolumn-card p {
   font-size: 2vw;
   font-family: "Kanit-Regular";
+  text-transform: uppercase;
 }
 
 .multicolumn-card > .multicolumn-card__image-wrapper--full-width:not(.multicolumn-card-spacing) {
