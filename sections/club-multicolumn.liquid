@@ -86,7 +86,12 @@
              endif
           -%}
 
+            {% if block.settings.image != blank %}
             <div class="multicolumn-card content-container">
+            {% else %}
+            <div class="multicolumn-card content-container" style="{{ textcolor }};{{ backgroundcolor }};">
+            {% endif %}
+          
               {%- if block.settings.image != blank -%}
                 {% if section.settings.image_ratio == 'adapt' or section.settings.image_ratio == 'circle' %}
                   {% assign spaced_image = true %}
