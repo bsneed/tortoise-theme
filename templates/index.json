@@ -273,6 +273,52 @@
         "padding_top": 0,
         "padding_bottom": 0
       }
+    },
+    "0afe44af-c162-4c39-b30e-a3fff241448d": {
+      "type": "rich-text",
+      "blocks": {
+        "template--14705706139683__0afe44af-c162-4c39-b30e-a3fff241448d-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "GET IN TOUCH",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "template--14705706139683__0afe44af-c162-4c39-b30e-a3fff241448d-heading-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "93b517c9-1b28-4338-8faa-1fcf7f1181c0": {
+      "type": "rich-text",
+      "blocks": {
+        "template--14705706139683__93b517c9-1b28-4338-8faa-1fcf7f1181c0-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "info@clubdist.com",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "template--14705706139683__93b517c9-1b28-4338-8faa-1fcf7f1181c0-heading-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -284,6 +330,8 @@
     "featured_collection",
     "00e32b05-b91a-424c-90e1-75aae03b931d",
     "2c1b0505-b9b6-4c50-a4f5-87ee7eb4c8f1",
-    "2029aca8-21dd-4c78-8466-38f125fef8dd"
+    "2029aca8-21dd-4c78-8466-38f125fef8dd",
+    "0afe44af-c162-4c39-b30e-a3fff241448d",
+    "93b517c9-1b28-4338-8faa-1fcf7f1181c0"
   ]
 }

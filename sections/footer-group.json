@@ -13,25 +13,25 @@
             "alignment": "center"
           }
         },
-        "footer-0": {
-          "type": "link_list",
-          "settings": {
-            "heading": "Quick links",
-            "menu": "footer"
-          }
-        },
         "footer-2": {
           "type": "text",
           "settings": {
             "heading": "Our mission",
             "subtext": "<p>Share contact information, store details, and brand content with your customers.<\/p>"
           }
+        },
+        "footer-0": {
+          "type": "link_list",
+          "settings": {
+            "heading": "Quick links",
+            "menu": "footer"
+          }
         }
       },
       "block_order": [
         "4690a7a3-edb9-4a75-a465-d80ae22b007f",
-        "footer-0",
-        "footer-2"
+        "footer-2",
+        "footer-0"
       ],
       "settings": {
         "color_scheme": "scheme-4",
