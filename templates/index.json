@@ -157,6 +157,53 @@
         "heading": "ONLY AVAILABLE UNTIL MONDAY.  DON'T MISS!"
       }
     },
+    "488ee425-29ec-4f56-a125-9fc4ab1ced19": {
+      "type": "collection-list",
+      "blocks": {
+        "template--14705706139683__488ee425-29ec-4f56-a125-9fc4ab1ced19-featured_collection-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "decks"
+          }
+        },
+        "template--14705706139683__488ee425-29ec-4f56-a125-9fc4ab1ced19-featured_collection-2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "trucks"
+          }
+        },
+        "template--14705706139683__488ee425-29ec-4f56-a125-9fc4ab1ced19-featured_collection-3": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "wheels"
+          }
+        },
+        "f4ca214f-650b-4036-8072-4776b03b9ffb": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "apparel"
+          }
+        }
+      },
+      "block_order": [
+        "template--14705706139683__488ee425-29ec-4f56-a125-9fc4ab1ced19-featured_collection-1",
+        "template--14705706139683__488ee425-29ec-4f56-a125-9fc4ab1ced19-featured_collection-2",
+        "template--14705706139683__488ee425-29ec-4f56-a125-9fc4ab1ced19-featured_collection-3",
+        "f4ca214f-650b-4036-8072-4776b03b9ffb"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_ratio": "square",
+        "columns_desktop": 4,
+        "color_scheme": "",
+        "show_view_all": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 16,
+        "padding_bottom": 16
+      }
+    },
     "featured_collection": {
       "type": "featured-collection",
       "settings": {
@@ -354,6 +401,7 @@
     "699dfff4-b0ce-41f1-91d0-de1d6e8e59a2",
     "9104fb3f-3403-4cec-b056-b04940b38638",
     "b1d4b7bc-5a95-46e4-a9eb-e6fd2157b0cc",
+    "488ee425-29ec-4f56-a125-9fc4ab1ced19",
     "featured_collection",
     "00e32b05-b91a-424c-90e1-75aae03b931d",
     "2c1b0505-b9b6-4c50-a4f5-87ee7eb4c8f1",
