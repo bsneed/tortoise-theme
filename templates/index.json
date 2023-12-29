@@ -292,6 +292,7 @@
     },
     "886b815d-1a09-49ad-8ab4-130f18ff431f": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "title": "Featured collection",
         "heading_size": "h1",
