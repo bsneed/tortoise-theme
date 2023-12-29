@@ -300,16 +300,15 @@
     "93b517c9-1b28-4338-8faa-1fcf7f1181c0": {
       "type": "rich-text",
       "blocks": {
-        "template--14705706139683__93b517c9-1b28-4338-8faa-1fcf7f1181c0-heading-1": {
-          "type": "heading",
+        "cd3b696e-831a-4567-86a2-f3c49a8d7414": {
+          "type": "text",
           "settings": {
-            "heading": "info@clubdist.com",
-            "heading_size": "h1"
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
           }
         }
       },
       "block_order": [
-        "template--14705706139683__93b517c9-1b28-4338-8faa-1fcf7f1181c0-heading-1"
+        "cd3b696e-831a-4567-86a2-f3c49a8d7414"
       ],
       "settings": {
         "desktop_content_position": "center",
