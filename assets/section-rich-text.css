@@ -50,7 +50,8 @@
   overflow-wrap: break-word;
   font-size: 6vw;
   line-height: 1em;
-  color: black;
+  color: white;
+  background-color:black;
 }
 
 .rich-text__blocks > * {
