@@ -314,7 +314,7 @@
       ],
       "settings": {
         "color_scheme": "scheme-4",
-        "full_width": false,
+        "full_width": true,
         "padding_top": 20,
         "padding_bottom": 20
       }
