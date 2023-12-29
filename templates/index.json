@@ -178,7 +178,7 @@
           "type": "heading",
           "settings": {
             "heading": "STAY IN TOUCH",
-            "heading_size": "h1"
+            "heading_size": "h0"
           }
         },
         "template--14705706139683__d8df30e2-e54d-4481-b168-c662abfc1fef-paragraph-1": {
@@ -200,9 +200,9 @@
       ],
       "settings": {
         "color_scheme": "scheme-4",
-        "full_width": false,
+        "full_width": true,
         "padding_top": 4,
-        "padding_bottom": 12
+        "padding_bottom": 24
       }
     },
     "featured_collection": {
