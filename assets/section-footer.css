@@ -9,7 +9,6 @@
 .footer__content-top {
   padding-bottom: 5rem;
   display: block;
-  background-color: #555;
 }
 
 @media screen and (max-width: 749px) {
