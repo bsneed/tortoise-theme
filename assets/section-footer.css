@@ -314,6 +314,9 @@
 
 .footer-block__details-content {
   margin-bottom: 4rem;
+}
+
+.footer-block__details-content a {
   text-decoration: underline;
 }
 
