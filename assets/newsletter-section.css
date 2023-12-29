@@ -1,6 +1,8 @@
 .newsletter__wrapper {
   /*padding-right: calc(4rem / var(--font-body-scale));
   padding-left: calc(4rem / var(--font-body-scale));*/
+  padding-left: 0;
+  padding-right: 0;
   text-align: left;
 }
 
