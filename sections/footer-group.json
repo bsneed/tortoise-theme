@@ -5,6 +5,14 @@
     "footer": {
       "type": "footer",
       "blocks": {
+        "4690a7a3-edb9-4a75-a465-d80ae22b007f": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/club-white.png",
+            "image_width": 300,
+            "alignment": "center"
+          }
+        },
         "footer-0": {
           "type": "link_list",
           "settings": {
@@ -12,15 +20,9 @@
             "menu": "footer"
           }
         },
-        "footer-1": {
-          "type": "link_list",
-          "settings": {
-            "heading": "Info",
-            "menu": "footer"
-          }
-        },
         "footer-2": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "heading": "Our mission",
             "subtext": "<p>Share contact information, store details, and brand content with your customers.<\/p>"
@@ -28,8 +30,8 @@
         }
       },
       "block_order": [
+        "4690a7a3-edb9-4a75-a465-d80ae22b007f",
         "footer-0",
-        "footer-1",
         "footer-2"
       ],
       "settings": {
