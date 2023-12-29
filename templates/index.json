@@ -263,6 +263,7 @@
     },
     "38b915b4-b6b6-4b06-a8b5-20c1c7cb3a1a": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "title": "best selling accessories",
         "heading_size": "h1",
