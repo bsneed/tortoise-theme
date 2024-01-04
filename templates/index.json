@@ -25,8 +25,20 @@
     },
     "image_banner": {
       "type": "image-banner",
+      "blocks": {
+        "f1054f6f-69cb-4cb0-87eb-16f33cff14a0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image banner",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "f1054f6f-69cb-4cb0-87eb-16f33cff14a0"
+      ],
       "settings": {
-        "image_link": "shopify:\/\/collections\/whitaker",
+        "image_link": "shopify:\/\/collections\/frontpage",
         "image": "shopify:\/\/shop_images\/575de9b7-8dc8-48e1-af56-be5ab80af43c-1666275335083-pfarm-with-png-watermarked.png",
         "image_overlay_opacity": 0,
         "image_height": "medium",
@@ -49,7 +61,7 @@
             "image": "shopify:\/\/shop_images\/Screenshot_2024-01-03_at_4.47.12_PM.png",
             "text_style": "white",
             "title": "a happy analyst",
-            "text": "<p>I have no idea what is happening<\/p>",
+            "text": "<p>Ask me anything.  I dare you.<\/p>",
             "link_label": "",
             "link": "shopify:\/\/collections\/base-skateboards"
           }
@@ -58,8 +70,8 @@
           "type": "column",
           "settings": {
             "text_style": "white",
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "title": "voltron @ work",
+            "text": "<p>See how the team at Voltron is using analytics-swift to make the galaxy a safer place.<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -92,208 +104,13 @@
         "heading": "SHARE THIS LINK WITH SOMEONE ELSE WHO IS INTO DATA, GET A FREE PUPPY!"
       }
     },
-    "488ee425-29ec-4f56-a125-9fc4ab1ced19": {
-      "type": "collection-list",
-      "blocks": {
-        "template--14705706139683__488ee425-29ec-4f56-a125-9fc4ab1ced19-featured_collection-1": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "decks"
-          }
-        },
-        "template--14705706139683__488ee425-29ec-4f56-a125-9fc4ab1ced19-featured_collection-2": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "trucks"
-          }
-        },
-        "template--14705706139683__488ee425-29ec-4f56-a125-9fc4ab1ced19-featured_collection-3": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "wheels"
-          }
-        },
-        "f4ca214f-650b-4036-8072-4776b03b9ffb": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "apparel"
-          }
-        }
-      },
-      "block_order": [
-        "template--14705706139683__488ee425-29ec-4f56-a125-9fc4ab1ced19-featured_collection-1",
-        "template--14705706139683__488ee425-29ec-4f56-a125-9fc4ab1ced19-featured_collection-2",
-        "template--14705706139683__488ee425-29ec-4f56-a125-9fc4ab1ced19-featured_collection-3",
-        "f4ca214f-650b-4036-8072-4776b03b9ffb"
-      ],
-      "settings": {
-        "title": "",
-        "heading_size": "h1",
-        "image_ratio": "square",
-        "columns_desktop": 4,
-        "color_scheme": "",
-        "show_view_all": false,
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "padding_top": 16,
-        "padding_bottom": 16
-      }
-    },
-    "d8df30e2-e54d-4481-b168-c662abfc1fef": {
-      "type": "newsletter",
-      "blocks": {
-        "template--14705706139683__d8df30e2-e54d-4481-b168-c662abfc1fef-heading-1": {
-          "type": "heading",
-          "settings": {
-            "heading": "STAY IN TOUCH",
-            "heading_size": "h0"
-          }
-        },
-        "template--14705706139683__d8df30e2-e54d-4481-b168-c662abfc1fef-paragraph-1": {
-          "type": "paragraph",
-          "settings": {
-            "text": "<h3>GET 20% OFF YOUR FIRST ORDER<\/h3>"
-          }
-        },
-        "template--14705706139683__d8df30e2-e54d-4481-b168-c662abfc1fef-email_form-1": {
-          "type": "email_form",
-          "settings": {
-          }
-        }
-      },
-      "block_order": [
-        "template--14705706139683__d8df30e2-e54d-4481-b168-c662abfc1fef-heading-1",
-        "template--14705706139683__d8df30e2-e54d-4481-b168-c662abfc1fef-paragraph-1",
-        "template--14705706139683__d8df30e2-e54d-4481-b168-c662abfc1fef-email_form-1"
-      ],
-      "settings": {
-        "color_scheme": "scheme-4",
-        "full_width": true,
-        "padding_top": 4,
-        "padding_bottom": 24
-      }
-    },
-    "featured_collection": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "newest boards",
-        "heading_size": "h1",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "decks",
-        "products_to_show": 12,
-        "columns_desktop": 4,
-        "full_width": false,
-        "show_view_all": true,
-        "view_all_style": "solid",
-        "enable_desktop_slider": false,
-        "color_scheme": "scheme-1",
-        "image_ratio": "portrait",
-        "image_shape": "default",
-        "show_secondary_image": false,
-        "show_vendor": true,
-        "show_rating": false,
-        "enable_quick_add": false,
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "padding_top": 28,
-        "padding_bottom": 36
-      }
-    },
-    "5d0f01f4-9dab-4fb2-a7ba-6f104020408d": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "latest apparel",
-        "heading_size": "h1",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "apparel",
-        "products_to_show": 12,
-        "columns_desktop": 4,
-        "full_width": false,
-        "show_view_all": true,
-        "view_all_style": "solid",
-        "enable_desktop_slider": false,
-        "color_scheme": "",
-        "image_ratio": "adapt",
-        "image_shape": "default",
-        "show_secondary_image": false,
-        "show_vendor": false,
-        "show_rating": false,
-        "enable_quick_add": false,
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "38b915b4-b6b6-4b06-a8b5-20c1c7cb3a1a": {
-      "type": "featured-collection",
-      "disabled": true,
-      "settings": {
-        "title": "best selling accessories",
-        "heading_size": "h1",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "accessories",
-        "products_to_show": 12,
-        "columns_desktop": 4,
-        "full_width": false,
-        "show_view_all": true,
-        "view_all_style": "solid",
-        "enable_desktop_slider": false,
-        "color_scheme": "",
-        "image_ratio": "adapt",
-        "image_shape": "default",
-        "show_secondary_image": false,
-        "show_vendor": false,
-        "show_rating": false,
-        "enable_quick_add": false,
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "886b815d-1a09-49ad-8ab4-130f18ff431f": {
-      "type": "featured-collection",
-      "disabled": true,
-      "settings": {
-        "title": "Featured collection",
-        "heading_size": "h1",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "trucks",
-        "products_to_show": 8,
-        "columns_desktop": 4,
-        "full_width": false,
-        "show_view_all": true,
-        "view_all_style": "solid",
-        "enable_desktop_slider": false,
-        "color_scheme": "",
-        "image_ratio": "adapt",
-        "image_shape": "default",
-        "show_secondary_image": false,
-        "show_vendor": false,
-        "show_rating": false,
-        "enable_quick_add": false,
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "00e32b05-b91a-424c-90e1-75aae03b931d": {
       "type": "rich-text",
       "blocks": {
         "template--14705706139683__00e32b05-b91a-424c-90e1-75aae03b931d-heading-1": {
           "type": "heading",
           "settings": {
-            "heading": "DON'T HESITATE",
+            "heading": "NEW TOOLS",
             "heading_size": "h1"
           }
         }
@@ -320,68 +137,71 @@
         "full_width": true
       }
     },
-    "2029aca8-21dd-4c78-8466-38f125fef8dd": {
-      "type": "multicolumn",
+    "b1d9b0c6-6220-46a8-91e0-37886477259c": {
+      "type": "featured-blog",
+      "settings": {
+        "heading": "",
+        "heading_size": "h1",
+        "blog": "",
+        "post_limit": 3,
+        "columns_desktop": 3,
+        "color_scheme": "",
+        "show_image": true,
+        "show_date": true,
+        "show_author": false,
+        "show_view_all": true,
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "179440e4-7c8d-4224-ac21-24a64eb9d34e": {
+      "type": "rich-text",
       "blocks": {
-        "template--14705706139683__2029aca8-21dd-4c78-8466-38f125fef8dd-column-1": {
-          "type": "column",
+        "template--21935013626167__179440e4-7c8d-4224-ac21-24a64eb9d34e-heading-1": {
+          "type": "heading",
           "settings": {
-            "title": "FAST DELIVERY",
-            "text": "<p>Orders usually ship the SAME DAY.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "template--14705706139683__2029aca8-21dd-4c78-8466-38f125fef8dd-column-2": {
-          "type": "column",
-          "settings": {
-            "title": "FREE SHIPPING",
-            "text": "<p>Free shipping on orders over $55.  Better than our competitors.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "template--14705706139683__2029aca8-21dd-4c78-8466-38f125fef8dd-column-3": {
-          "type": "column",
-          "settings": {
-            "title": "GREAT PRICES",
-            "text": "<p>Better prices than the big guys and a better product.<\/p>",
-            "link_label": "",
-            "link": ""
+            "heading": "POPULAR POSTS",
+            "heading_size": "h1"
           }
         }
       },
       "block_order": [
-        "template--14705706139683__2029aca8-21dd-4c78-8466-38f125fef8dd-column-1",
-        "template--14705706139683__2029aca8-21dd-4c78-8466-38f125fef8dd-column-2",
-        "template--14705706139683__2029aca8-21dd-4c78-8466-38f125fef8dd-column-3"
+        "template--21935013626167__179440e4-7c8d-4224-ac21-24a64eb9d34e-heading-1"
       ],
       "settings": {
-        "title": "",
-        "heading_size": "h2",
-        "image_width": "third",
-        "image_ratio": "circle",
-        "columns_desktop": 3,
-        "column_alignment": "left",
-        "background_style": "primary",
-        "button_label": "",
-        "button_link": "",
+        "desktop_content_position": "center",
+        "content_alignment": "center",
         "color_scheme": "",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 0,
-        "padding_bottom": 0
+        "full_width": true,
+        "padding_top": 12,
+        "padding_bottom": 12
       }
     },
     "c999e4ad-8e71-4cf0-b82c-15677a740225": {
       "type": "club-divider",
-      "disabled": true,
       "settings": {
-        "padding_top": 36,
-        "padding_bottom": 36,
+        "padding_top": 0,
+        "padding_bottom": 0,
         "height": 2,
         "color": "#000000",
         "full_width": true
+      }
+    },
+    "f1a32db0-d403-4b89-aa37-f732757ddcac": {
+      "type": "featured-blog",
+      "settings": {
+        "heading": "",
+        "heading_size": "h1",
+        "blog": "",
+        "post_limit": 3,
+        "columns_desktop": 3,
+        "color_scheme": "",
+        "show_image": true,
+        "show_date": true,
+        "show_author": false,
+        "show_view_all": true,
+        "padding_top": 0,
+        "padding_bottom": 36
       }
     },
     "ea045853-00ed-4f15-9ab6-c10103db3dbb": {
@@ -397,7 +217,7 @@
         "template--14705706139683__ea045853-00ed-4f15-9ab6-c10103db3dbb-paragraph-1": {
           "type": "paragraph",
           "settings": {
-            "text": "<h3>GET 20% OFF YOUR FIRST ORDER<\/h3>"
+            "text": "<h3>GET CONTENT STRAIGHT TO YOUR INBOX!<\/h3>"
           }
         },
         "template--14705706139683__ea045853-00ed-4f15-9ab6-c10103db3dbb-email_form-1": {
@@ -424,16 +244,12 @@
     "image_banner",
     "699dfff4-b0ce-41f1-91d0-de1d6e8e59a2",
     "b1d4b7bc-5a95-46e4-a9eb-e6fd2157b0cc",
-    "488ee425-29ec-4f56-a125-9fc4ab1ced19",
-    "d8df30e2-e54d-4481-b168-c662abfc1fef",
-    "featured_collection",
-    "5d0f01f4-9dab-4fb2-a7ba-6f104020408d",
-    "38b915b4-b6b6-4b06-a8b5-20c1c7cb3a1a",
-    "886b815d-1a09-49ad-8ab4-130f18ff431f",
     "00e32b05-b91a-424c-90e1-75aae03b931d",
     "2c1b0505-b9b6-4c50-a4f5-87ee7eb4c8f1",
-    "2029aca8-21dd-4c78-8466-38f125fef8dd",
+    "b1d9b0c6-6220-46a8-91e0-37886477259c",
+    "179440e4-7c8d-4224-ac21-24a64eb9d34e",
     "c999e4ad-8e71-4cf0-b82c-15677a740225",
+    "f1a32db0-d403-4b89-aa37-f732757ddcac",
     "ea045853-00ed-4f15-9ab6-c10103db3dbb"
   ]
 }
