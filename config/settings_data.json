@@ -1,8 +1,8 @@
 {
   "current": {
     "breadcrumb_text_color": "#000000",
-    "logo": "shopify:\/\/shop_images\/logo_d1930bc9-ffcd-4410-8408-7ec9f3911b6e.png",
-    "logo_width": 140,
+    "logo": "shopify:\/\/shop_images\/logo.png",
+    "logo_width": 300,
     "type_header_font": "assistant_n4",
     "heading_scale": 100,
     "type_body_font": "assistant_n4",
@@ -257,14 +257,6 @@
     "content_for_index": [
 
     ],
-    "blocks": {
-      "17327048248777170309": {
-        "type": "shopify:\/\/apps\/all-in-1-discount-on-cart\/blocks\/instant-load\/f428e1ae-8a34-4767-8189-f8339f3ab12b",
-        "disabled": false,
-        "settings": {
-        }
-      }
-    },
     "color_schemes": {
       "scheme-1": {
         "settings": {
