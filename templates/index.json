@@ -6,7 +6,7 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "WELCOME TO THE CLUB",
+            "heading": "ANALYTICS-101",
             "heading_size": "h0"
           }
         }
@@ -59,7 +59,6 @@
       ],
       "settings": {
         "image_link": "shopify:\/\/collections\/whitaker",
-        "image": "shopify:\/\/shop_images\/whitaker_banner2_45d007c9-0275-4a05-89bb-960f503f15ae.jpg",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "desktop_content_position": "middle-left",
@@ -78,7 +77,6 @@
         "template--14705706139683__699dfff4-b0ce-41f1-91d0-de1d6e8e59a2-column-2": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/391630749_18387302434042900_8795268565589097692_n.jpg",
             "text_style": "white",
             "title": "heading 2",
             "text": "<p>description<\/p>",
@@ -358,7 +356,6 @@
         "template--14705706139683__2029aca8-21dd-4c78-8466-38f125fef8dd-column-1": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/delivery.jpg",
             "title": "FAST DELIVERY",
             "text": "<p>Orders usually ship the SAME DAY.<\/p>",
             "link_label": "",
@@ -368,7 +365,6 @@
         "template--14705706139683__2029aca8-21dd-4c78-8466-38f125fef8dd-column-2": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/shipping.jpg",
             "title": "FREE SHIPPING",
             "text": "<p>Free shipping on orders over $55.  Better than our competitors.<\/p>",
             "link_label": "",
@@ -378,7 +374,6 @@
         "template--14705706139683__2029aca8-21dd-4c78-8466-38f125fef8dd-column-3": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/prices_70373e2c-0560-4fe3-b829-6191ccc0e6c1.jpg",
             "title": "GREAT PRICES",
             "text": "<p>Better prices than the big guys and a better product.<\/p>",
             "link_label": "",
