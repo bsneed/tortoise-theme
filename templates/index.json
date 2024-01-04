@@ -25,40 +25,9 @@
     },
     "image_banner": {
       "type": "image-banner",
-      "blocks": {
-        "heading": {
-          "type": "heading",
-          "settings": {
-            "heading": "welcome to our store",
-            "heading_size": "h0"
-          }
-        },
-        "text": {
-          "type": "text",
-          "settings": {
-            "text": "Vestibulum non congue massa. Duis justo libero, blandit in pretium sed, cursus eget lorem. Sed eleifend pretium ante, eu finibus tellus suscipit non. ",
-            "text_style": "body"
-          }
-        },
-        "button": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "CLICK OR NOT ...",
-            "button_link_1": "shopify:\/\/collections\/all",
-            "button_style_secondary_1": true,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "heading",
-        "text",
-        "button"
-      ],
       "settings": {
         "image_link": "shopify:\/\/collections\/whitaker",
+        "image": "shopify:\/\/shop_images\/575de9b7-8dc8-48e1-af56-be5ab80af43c-1666275335083-pfarm-with-png-watermarked.png",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "desktop_content_position": "middle-left",
@@ -77,9 +46,10 @@
         "template--14705706139683__699dfff4-b0ce-41f1-91d0-de1d6e8e59a2-column-2": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Screenshot_2024-01-03_at_4.47.12_PM.png",
             "text_style": "white",
-            "title": "heading 2",
-            "text": "<p>description<\/p>",
+            "title": "a happy analyst",
+            "text": "<p>I have no idea what is happening<\/p>",
             "link_label": "",
             "link": "shopify:\/\/collections\/base-skateboards"
           }
@@ -119,7 +89,7 @@
     "b1d4b7bc-5a95-46e4-a9eb-e6fd2157b0cc": {
       "type": "club-scroll",
       "settings": {
-        "heading": "ONLY AVAILABLE UNTIL MONDAY.  DON'T MISS!"
+        "heading": "SHARE THIS LINK WITH SOMEONE ELSE WHO IS INTO DATA"
       }
     },
     "488ee425-29ec-4f56-a125-9fc4ab1ced19": {
