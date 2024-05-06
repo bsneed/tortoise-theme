@@ -370,7 +370,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/shipping.jpg",
             "title": "FREE SHIPPING",
-            "text": "<p>Free shipping on orders over $55.  Better than our competitors.<\/p>",
+            "text": "<p>Free shipping on orders over $75.  Better than our competitors.<\/p>",
             "link_label": "",
             "link": ""
           }
