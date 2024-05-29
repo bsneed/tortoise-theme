@@ -64,10 +64,10 @@
         "template--14705706139683__699dfff4-b0ce-41f1-91d0-de1d6e8e59a2-column-2": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/391630749_18387302434042900_8795268565589097692_n.jpg",
+            "image": "shopify:\/\/shop_images\/Norman-Collage.jpg",
             "text_style": "white",
-            "title": "heading 2",
-            "text": "<p>description<\/p>",
+            "title": "",
+            "text": "<p>norman woods<\/p>",
             "link_label": "",
             "link": "shopify:\/\/collections\/base-skateboards"
           }
@@ -76,10 +76,10 @@
           "type": "column",
           "settings": {
             "text_style": "white",
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
+            "title": "norman woods @ collage",
+            "text": "<p>He's a multifaceted individual known for his work as a professional skateboarder, YouTuber, and musician.<\/p><p>Woods exemplifies a modern, multi-talented creator who leverages various platforms to share his interests and talents with a broad audience.<\/p>",
+            "link_label": "learn more - or not",
+            "link": "shopify:\/\/blogs\/news\/norman-woods-the-multitalented-skateboarder-youtuber-and-musician"
           }
         }
       },
