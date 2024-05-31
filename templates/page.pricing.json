@@ -74,32 +74,20 @@
         "heading_dqHgEd": {
           "type": "heading",
           "settings": {
-            "heading": "",
+            "heading": "Here's our costs.",
             "heading_size": "h1"
           }
         },
         "text_DpWA3P": {
           "type": "text",
           "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
-          }
-        },
-        "button_fHiGqj": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
+            "text": "<p>We pay roughly $17 to $24 per deck.  This varies between manufacturers and our asks.  Custom shapes and veneer layups cost extra.  We also have to factor in freight cost from the manufacturer to our warehouse.<\/p>"
           }
         }
       },
       "block_order": [
         "heading_dqHgEd",
-        "text_DpWA3P",
-        "button_fHiGqj"
+        "text_DpWA3P"
       ],
       "settings": {
         "desktop_content_position": "center",
