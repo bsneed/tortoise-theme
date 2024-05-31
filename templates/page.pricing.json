@@ -43,7 +43,7 @@
         "text_rAXnHH": {
           "type": "text",
           "settings": {
-            "text": "<p>They said it was because of \"inflation\".  We saw our prices modestly increase, roughly $1 per board between 2020 and 2023.  It didn't justify the $20-$30 price hikes our competitors were doing.<\/p><p>See that BAKER board?  $82.  They use the same wood and manufacturers as everyone else.<\/p><p>We don't have the sales volume that they do, so we know their pricing from manufacturers is lower than ours.<\/p>",
+            "text": "<p>They said it was because of \"inflation\".  We saw our prices modestly increase, roughly $1 per board between 2020 and 2023.  It didn't justify the $20-$30 price hikes our competitors were doing.<\/p><p>See that BAKER board?  $82.  They use the same wood and manufacturers as everyone else.  It's just an example.<\/p><p>We don't buy in the volume that they do, so we know their pricing from manufacturers is lower than ours.<\/p>",
             "text_style": "body"
           }
         }
@@ -81,7 +81,7 @@
         "text_DpWA3P": {
           "type": "text",
           "settings": {
-            "text": "<p>We pay roughly $17 to $24 per deck.  This varies between manufacturers and our asks.  Custom shapes and veneer layups cost extra.  We also have to factor in freight cost from the manufacturer to our warehouse.<\/p>"
+            "text": "<p>We pay roughly $17 to $24 per blank deck.  This varies between manufacturers and our asks.  Custom shapes and veneer layups cost extra.  We also factor in freight costs from the manufacturer to our warehouse.<\/p>"
           }
         }
       },
