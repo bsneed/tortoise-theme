@@ -44,7 +44,7 @@
     "image_banner_4D3M7x": {
       "type": "image-banner",
       "settings": {
-        "image_link": "",
+        "image_link": "shopify:\/\/pages\/pricing",
         "image": "shopify:\/\/shop_images\/broke3.jpg",
         "image_overlay_opacity": 0,
         "image_height": "adapt",
