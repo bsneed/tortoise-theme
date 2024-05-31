@@ -1,5 +1,22 @@
 {
   "sections": {
+    "image_banner_e7qA7X": {
+      "type": "image-banner",
+      "settings": {
+        "image_link": "",
+        "image": "shopify:\/\/shop_images\/broke3.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
     "rich_text_cdBQzb": {
       "type": "rich-text",
       "blocks": {
@@ -13,7 +30,7 @@
         "text_8htgPp": {
           "type": "text",
           "settings": {
-            "text": "<p>We do.<\/p><p>We screwed up by trying to follow the industry.  We're doing it our way now.<\/p>"
+            "text": "<p>We do.<\/p><p>We screwed up by trying to follow the industry.  We were trying to stay price competitive when we didn't have to.<\/p>"
           }
         }
       },
@@ -44,7 +61,7 @@
           "type": "text",
           "settings": {
             "text": "<p>They said it was because of \"inflation\".  We saw our prices modestly increase, roughly $1 per board between 2020 to 2023.  It didn't justify the $20-$30 price hikes our competitors were doing.<\/p>",
-            "text_style": "body"
+            "text_style": "subtitle"
           }
         }
       },
@@ -81,7 +98,7 @@
         "text_DpWA3P": {
           "type": "text",
           "settings": {
-            "text": "<p>We pay roughly $17 to $24 per blank deck.  This varies between manufacturers and our asks.  Custom shapes and veneer layups cost extra.  We also factor in freight costs from the manufacturer to our warehouse.<\/p>"
+            "text": "<p>Every business is different.  We don't have the overhead that the big brands do.  Pricing lower than them creates an impression of inferior quality.<\/p><p>We're using the same manufacturers, so we know that's not true.  Prices are so out of hand now, we're just not doing that shit anymore.<\/p><p>We're going do it our way now.<\/p>"
           }
         }
       },
@@ -97,11 +114,66 @@
         "padding_top": 40,
         "padding_bottom": 52
       }
+    },
+    "multicolumn_9hW8p4": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_Den7wN": {
+          "type": "column",
+          "settings": {
+            "title": "$55 Decks.",
+            "text": "<p>We'll price all graphic boards at $55.  We'll keep that price as long as we possibly can.  We'll eat any minor cost differences along the way.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_iiYUcc": {
+          "type": "column",
+          "settings": {
+            "title": "FRESH WOOD.",
+            "text": "<p>We will ONLY sell fresh boards.  We're not gonna pull what some of our competitors do and sell you 5 year old, dried out product at full price.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_RhfkFn": {
+          "type": "column",
+          "settings": {
+            "title": "CLUB DIRECT.",
+            "text": "<p>We're going to open up wholesale pricing direct to customers on all the products we can.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_Den7wN",
+        "column_iiYUcc",
+        "column_RhfkFn"
+      ],
+      "settings": {
+        "title": "HERE'S WHAT WE'RE DOING.",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
+    "image_banner_e7qA7X",
     "rich_text_cdBQzb",
     "image_with_text_TG66gy",
-    "rich_text_epw7yR"
+    "rich_text_epw7yR",
+    "multicolumn_9hW8p4"
   ]
 }
