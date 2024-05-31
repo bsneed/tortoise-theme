@@ -43,7 +43,7 @@
         "text_rAXnHH": {
           "type": "text",
           "settings": {
-            "text": "<p>They said it was because of \"inflation\".  We saw our prices modestly increase, roughly $1 per board between 2020 and 2023.  It didn't justify the $20-$30 price hikes our competitors were doing.<\/p><p>See that board on the left?  $82.  They use the same wood and manufacturers as everyone else.<\/p><p>We don't have the sales volume that they do, so we know their pricing from manufacturers is lower than ours.<\/p>",
+            "text": "<p>They said it was because of \"inflation\".  We saw our prices modestly increase, roughly $1 per board between 2020 and 2023.  It didn't justify the $20-$30 price hikes our competitors were doing.<\/p><p>See that BAKER board?  $82.  They use the same wood and manufacturers as everyone else.<\/p><p>We don't have the sales volume that they do, so we know their pricing from manufacturers is lower than ours.<\/p>",
             "text_style": "body"
           }
         }
@@ -67,10 +67,53 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "rich_text_epw7yR": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_dqHgEd": {
+          "type": "heading",
+          "settings": {
+            "heading": "",
+            "heading_size": "h1"
+          }
+        },
+        "text_DpWA3P": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+          }
+        },
+        "button_fHiGqj": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_dqHgEd",
+        "text_DpWA3P",
+        "button_fHiGqj"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
     "rich_text_cdBQzb",
-    "image_with_text_TG66gy"
+    "image_with_text_TG66gy",
+    "rich_text_epw7yR"
   ]
 }
