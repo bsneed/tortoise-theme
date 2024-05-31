@@ -167,6 +167,54 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "image_with_text_UQ9KhJ": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_r3iKzx": {
+          "type": "heading",
+          "settings": {
+            "heading": "BUILDING TRUST",
+            "heading_size": "h1"
+          }
+        },
+        "text_cgLcVG": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We're going to either be successful at earning your trust by being transparent and focused on keeping you skating without breaking your budget ... or we'll pressure the industry to bring down their prices ... or BOTH!  All of those things are a win in our book.<\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_r3iKzx",
+        "text_cgLcVG"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/749ED5ED-1DB1-495A-B54D-2323E90F31A0.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "contact_form_6fWtTn": {
+      "type": "contact-form",
+      "settings": {
+        "heading": "THOUGHTS?  SUGGESTIONS?",
+        "heading_size": "h1",
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -174,6 +222,8 @@
     "rich_text_cdBQzb",
     "image_with_text_TG66gy",
     "rich_text_epw7yR",
-    "multicolumn_9hW8p4"
+    "multicolumn_9hW8p4",
+    "image_with_text_UQ9KhJ",
+    "contact_form_6fWtTn"
   ]
 }
