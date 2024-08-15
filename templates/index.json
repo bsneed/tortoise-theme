@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "rich_text": {
@@ -64,7 +73,7 @@
         "template--14705706139683__699dfff4-b0ce-41f1-91d0-de1d6e8e59a2-column-2": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Norman-Collage2.jpg",
+            "image": "shopify:\/\/shop_images\/COLLAGE_ADish_2.heic",
             "text_style": "white",
             "title": "",
             "text": "<p>norman woods<\/p>",
@@ -76,8 +85,8 @@
           "type": "column",
           "settings": {
             "text_style": "white",
-            "title": "norman woods @ collage",
-            "text": "<p>He's a multifaceted individual known for his work as a professional skateboarder, YouTuber, and musician.<\/p><p>Woods exemplifies a modern, multi-talented creator who leverages various platforms to share his interests and talents with a broad audience.<\/p>",
+            "title": "Norman Woods @ Collage",
+            "text": "<p>2020 was the genesis of Collage Skateboards. After being a sponsored skater riding for numerous companies within the industry, it was time for Norman to take his 20+ years of experience and do his own thing. <\/p><p><\/p><p><\/p><p>They've spent the last 4 years building a team, educating skaters through Norman's youtube channel, and providing a fresh take on Collage art designed by Ayako Woods. <\/p>",
             "link_label": ": Click here to learn more about Norman & Collage :",
             "link": "shopify:\/\/blogs\/news\/norman-woods-the-multitalented-skateboarder-youtuber-and-musician"
           }
