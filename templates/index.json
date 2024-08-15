@@ -317,16 +317,16 @@
         "padding_bottom": 36
       }
     },
-    "slideshow_Q4H4gH": {
+    "slideshow_LAUHCV": {
       "type": "slideshow",
       "blocks": {
-        "slide_enjLB8": {
+        "slide_nqHFnn": {
           "type": "slide",
           "settings": {
-            "heading": "Looking to get custom boards made for your brand or shop?",
+            "heading": "Create custom boards for your brand",
             "heading_size": "h1",
-            "subheading": "",
-            "button_label": "Click Here",
+            "subheading": "Tell your brand's story through images",
+            "button_label": "Button label",
             "link": "",
             "button_style_secondary": false,
             "box_align": "middle-center",
@@ -337,7 +337,7 @@
             "text_alignment_mobile": "center"
           }
         },
-        "slide_JANJDU": {
+        "slide_MqE3kM": {
           "type": "slide",
           "settings": {
             "heading": "Image slide",
@@ -356,8 +356,8 @@
         }
       },
       "block_order": [
-        "slide_enjLB8",
-        "slide_JANJDU"
+        "slide_nqHFnn",
+        "slide_MqE3kM"
       ],
       "settings": {
         "layout": "full_bleed",
@@ -517,7 +517,7 @@
     "featured_collection_3fbcmd",
     "club_collage_GE3VPy",
     "5d0f01f4-9dab-4fb2-a7ba-6f104020408d",
-    "slideshow_Q4H4gH",
+    "slideshow_LAUHCV",
     "00e32b05-b91a-424c-90e1-75aae03b931d",
     "2c1b0505-b9b6-4c50-a4f5-87ee7eb4c8f1",
     "2029aca8-21dd-4c78-8466-38f125fef8dd",
