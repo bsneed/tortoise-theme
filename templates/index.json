@@ -54,7 +54,7 @@
       "type": "image-banner",
       "settings": {
         "image_link": "shopify:\/\/pages\/pricing",
-        "image": "shopify:\/\/shop_images\/broke3.jpg",
+        "image": "shopify:\/\/shop_images\/55decks.png",
         "image_overlay_opacity": 0,
         "image_height": "adapt",
         "desktop_content_position": "middle-center",
@@ -317,54 +317,6 @@
         "padding_bottom": 36
       }
     },
-    "image_banner_DBK4Qy": {
-      "type": "image-banner",
-      "blocks": {
-        "heading_yj9jGc": {
-          "type": "heading",
-          "settings": {
-            "heading": "Create custom boards for your brand",
-            "heading_size": "h1"
-          }
-        },
-        "text_cgfLkH": {
-          "type": "text",
-          "settings": {
-            "text": "",
-            "text_style": "body"
-          }
-        },
-        "buttons_3citjX": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Check it out",
-            "button_link_1": "",
-            "button_style_secondary_1": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_yj9jGc",
-        "text_cgfLkH",
-        "buttons_3citjX"
-      ],
-      "settings": {
-        "image_link": "",
-        "image_overlay_opacity": 0,
-        "image_height": "medium",
-        "desktop_content_position": "middle-center",
-        "show_text_box": true,
-        "desktop_content_alignment": "center",
-        "color_scheme": "",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
-      }
-    },
     "00e32b05-b91a-424c-90e1-75aae03b931d": {
       "type": "rich-text",
       "blocks": {
@@ -456,7 +408,6 @@
     },
     "c999e4ad-8e71-4cf0-b82c-15677a740225": {
       "type": "club-divider",
-      "disabled": true,
       "settings": {
         "padding_top": 36,
         "padding_bottom": 36,
@@ -512,7 +463,6 @@
     "featured_collection_3fbcmd",
     "club_collage_GE3VPy",
     "5d0f01f4-9dab-4fb2-a7ba-6f104020408d",
-    "image_banner_DBK4Qy",
     "00e32b05-b91a-424c-90e1-75aae03b931d",
     "2c1b0505-b9b6-4c50-a4f5-87ee7eb4c8f1",
     "2029aca8-21dd-4c78-8466-38f125fef8dd",
