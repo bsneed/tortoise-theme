@@ -48,6 +48,35 @@
   endif
 -%}
 
+<script>
+  {%- if section.settings.randomized -%}
+  var shuffled = true;
+  {%- else -%}
+  var shuffled = false;
+  {%- endif -%}
+
+setInterval(function() {
+
+    if(shuffled) {
+        return;
+    }
+    
+    try{
+        var ul = document.querySelector('.product-grid');
+        var lis = Array.from(ul.getElementsByClassName('grid__item'));
+  
+        for (var i = lis.length - 1; i > 0; i--) {
+            var j = Math.floor(Math.random() * (i + 1));
+            ul.insertBefore(lis[j], lis[i]);
+        }
+        shuffled = true;
+    } catch {
+       console.log('failed') 
+    }
+    
+}, 1000)
+</script>
+
 <div class="color-{{ section.settings.color_scheme }} isolate gradient">
   <div class="collection section-{{ section.id }}-padding{% if section.settings.full_width %} collection--full-width{% endif %}">
     <div class="collection__title title-wrapper title-wrapper--no-top-margin page-width{% if show_mobile_slider %} title-wrapper--self-padded-tablet-down{% endif %}{% if show_desktop_slider %} collection__title--desktop-slider{% endif %}">
