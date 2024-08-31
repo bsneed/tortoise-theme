@@ -55,26 +55,18 @@
   var shuffled = false;
   {%- endif -%}
 
-setInterval(function() {
+document.addEventListener('DOMContentLoaded', function () {
+  if (shuffled) {
+    var ul = document.querySelector('.product-grid');
+    var lis = Array.from(ul.getElementsByClassName('grid__item'));
 
-    if(shuffled) {
-        return;
+    for (var i = lis.length - 1; i > 0; i--) {
+        var j = Math.floor(Math.random() * (i + 1));
+        ul.insertBefore(lis[j], lis[i]);
     }
-    
-    try{
-        var ul = document.querySelector('.product-grid');
-        var lis = Array.from(ul.getElementsByClassName('grid__item'));
-  
-        for (var i = lis.length - 1; i > 0; i--) {
-            var j = Math.floor(Math.random() * (i + 1));
-            ul.insertBefore(lis[j], lis[i]);
-        }
-        shuffled = true;
-    } catch {
-       console.log('failed') 
-    }
-    
-}, 1000)
+  }
+});
+
 </script>
 
 <div class="color-{{ section.settings.color_scheme }} isolate gradient">
