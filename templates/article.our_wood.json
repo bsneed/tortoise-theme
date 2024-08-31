@@ -28,7 +28,7 @@
           "settings": {
             "text_style": "white",
             "title": "Production",
-            "text": "<p>Our boards are produced exclusively at Control Manufacturing in Canada.<br\/><br\/>They're a family owner & skater operated business, making skateboards since 1995.<\/p>",
+            "text": "<p>Our boards are produced exclusively at Control Manufacturing in Canada.<br\/><br\/>They're a family owned & skater operated business, making skateboards since 1995.<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -55,6 +55,52 @@
         "padding_bottom": 36
       }
     },
+    "club_multicolumn_wTMgeE": {
+      "type": "club-multicolumn",
+      "blocks": {
+        "column_nFTCRz": {
+          "type": "column",
+          "settings": {
+            "text_style": "white",
+            "title": "about control mfg",
+            "text": "<p>With over 20 years of experience, Control MFG is the largest factory in Canada in its domain. They solely use Hard Rock Canadian maple (the best raw material used in our field) and everything is produced locally.<br\/><br\/>Boards built in Canada with 100% hard rock maple.<br\/><br\/>Cold Pressed in numeric precision molds.<br\/><br\/>Extra stiff, water resistant glue.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_nEEDx7": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/102709914_1334523976743001_6336994838940052795_n_65fcd141-adeb-4356-bd59-05460630fb21.jpg",
+            "text_style": "black",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_nFTCRz",
+        "column_nEEDx7"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "portrait",
+        "columns_desktop": 2,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "main": {
       "type": "main-article",
       "blocks": {
@@ -66,13 +112,15 @@
         },
         "title": {
           "type": "title",
+          "disabled": true,
           "settings": {
-            "blog_show_date": true,
+            "blog_show_date": false,
             "blog_show_author": false
           }
         },
         "share": {
           "type": "share",
+          "disabled": true,
           "settings": {
             "share_label": "Share"
           }
@@ -89,12 +137,14 @@
         "share",
         "content"
       ],
+      "disabled": true,
       "settings": {
       }
     }
   },
   "order": [
     "club_multicolumn_jXUnRQ",
+    "club_multicolumn_wTMgeE",
     "main"
   ]
 }
