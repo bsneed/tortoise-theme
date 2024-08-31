@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "main": {
@@ -141,14 +150,23 @@
         "image-with-text-1": {
           "type": "text",
           "settings": {
-            "text": "<h3>We do.  The best boards in the industry as a matter of fact!  Don't believe it?  Go see for yourself.  &lt;link&gt;<\/h3>",
+            "text": "<h3>We do.  The best boards in the industry as a matter of fact!  Don't believe it?  Go see for yourself.<\/h3>",
             "text_style": "body"
+          }
+        },
+        "button_LXxGwk": {
+          "type": "button",
+          "settings": {
+            "button_label": "LEARN MORE",
+            "button_link": "",
+            "button_style_secondary": false
           }
         }
       },
       "block_order": [
         "image-with-text-0",
-        "image-with-text-1"
+        "image-with-text-1",
+        "button_LXxGwk"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/102709914_1334523976743001_6336994838940052795_n.jpg",
