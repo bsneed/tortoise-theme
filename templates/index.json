@@ -53,8 +53,8 @@
     "image_banner_4D3M7x": {
       "type": "image-banner",
       "settings": {
-        "image_link": "shopify:\/\/pages\/pricing",
-        "image": "shopify:\/\/shop_images\/55decks.png",
+        "image_link": "shopify:\/\/collections\/decks",
+        "image": "shopify:\/\/shop_images\/55decks.jpg",
         "image_overlay_opacity": 0,
         "image_height": "adapt",
         "desktop_content_position": "middle-center",
