@@ -17,36 +17,10 @@
         "color_scheme": "scheme-1"
       }
     },
-    "rich_text_LQpdU3": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_8cEMkc": {
-          "type": "heading",
-          "disabled": true,
-          "settings": {
-            "heading": "Talk about your brand",
-            "heading_size": "h1"
-          }
-        },
-        "text_kGePqJ": {
-          "type": "text",
-          "settings": {
-            "text": "<p>$55.  Every Day.<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "heading_8cEMkc",
-        "text_kGePqJ"
-      ],
-      "disabled": true,
+    "club_scroll_CPt8BE": {
+      "type": "club-scroll",
       "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
+        "heading": "$55 DECKS.  ALL DAY.  EVERY DAY.  NO STUPID CODES.  NO BLOWOUT SALES."
       }
     },
     "product-grid": {
@@ -68,18 +42,11 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
-    },
-    "club_scroll_CPt8BE": {
-      "type": "club-scroll",
-      "settings": {
-        "heading": "Say something!"
-      }
     }
   },
   "order": [
     "banner",
-    "rich_text_LQpdU3",
-    "product-grid",
-    "club_scroll_CPt8BE"
+    "club_scroll_CPt8BE",
+    "product-grid"
   ]
 }
