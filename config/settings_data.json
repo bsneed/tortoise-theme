@@ -272,6 +272,12 @@
         "disabled": false,
         "settings": {
         }
+      },
+      "2234460576277646851": {
+        "type": "shopify:\/\/apps\/ripple-collections-builder\/blocks\/app-embed-block\/9f355ec0-84f0-4c4e-b134-7a7dc7218898",
+        "disabled": false,
+        "settings": {
+        }
       }
     },
     "color_schemes": {
