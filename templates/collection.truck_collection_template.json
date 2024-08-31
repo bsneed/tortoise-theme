@@ -46,6 +46,7 @@
         "show_description": false,
         "description_style": "body",
         "collection": "wheels",
+        "randomized": true,
         "products_to_show": 4,
         "columns_desktop": 4,
         "full_width": false,
