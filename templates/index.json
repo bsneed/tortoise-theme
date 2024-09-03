@@ -366,40 +366,6 @@
         "padding_bottom": 36
       }
     },
-    "ea045853-00ed-4f15-9ab6-c10103db3dbb": {
-      "type": "newsletter",
-      "blocks": {
-        "template--14705706139683__ea045853-00ed-4f15-9ab6-c10103db3dbb-heading-1": {
-          "type": "heading",
-          "settings": {
-            "heading": "STAY IN TOUCH",
-            "heading_size": "h1"
-          }
-        },
-        "template--14705706139683__ea045853-00ed-4f15-9ab6-c10103db3dbb-paragraph-1": {
-          "type": "paragraph",
-          "settings": {
-            "text": "<h3>GET 20% OFF YOUR FIRST ORDER<\/h3>"
-          }
-        },
-        "template--14705706139683__ea045853-00ed-4f15-9ab6-c10103db3dbb-email_form-1": {
-          "type": "email_form",
-          "settings": {
-          }
-        }
-      },
-      "block_order": [
-        "template--14705706139683__ea045853-00ed-4f15-9ab6-c10103db3dbb-heading-1",
-        "template--14705706139683__ea045853-00ed-4f15-9ab6-c10103db3dbb-paragraph-1",
-        "template--14705706139683__ea045853-00ed-4f15-9ab6-c10103db3dbb-email_form-1"
-      ],
-      "settings": {
-        "color_scheme": "scheme-4",
-        "full_width": true,
-        "padding_top": 20,
-        "padding_bottom": 20
-      }
-    },
     "00e32b05-b91a-424c-90e1-75aae03b931d": {
       "type": "rich-text",
       "blocks": {
@@ -498,6 +464,40 @@
         "color": "#000000",
         "full_width": true
       }
+    },
+    "ea045853-00ed-4f15-9ab6-c10103db3dbb": {
+      "type": "newsletter",
+      "blocks": {
+        "template--14705706139683__ea045853-00ed-4f15-9ab6-c10103db3dbb-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "STAY IN TOUCH",
+            "heading_size": "h1"
+          }
+        },
+        "template--14705706139683__ea045853-00ed-4f15-9ab6-c10103db3dbb-paragraph-1": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<h3>GET 20% OFF YOUR FIRST ORDER<\/h3>"
+          }
+        },
+        "template--14705706139683__ea045853-00ed-4f15-9ab6-c10103db3dbb-email_form-1": {
+          "type": "email_form",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "template--14705706139683__ea045853-00ed-4f15-9ab6-c10103db3dbb-heading-1",
+        "template--14705706139683__ea045853-00ed-4f15-9ab6-c10103db3dbb-paragraph-1",
+        "template--14705706139683__ea045853-00ed-4f15-9ab6-c10103db3dbb-email_form-1"
+      ],
+      "settings": {
+        "color_scheme": "scheme-4",
+        "full_width": true,
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
     }
   },
   "order": [
@@ -513,10 +513,10 @@
     "club_collage_GE3VPy",
     "image_banner_RpiAUj",
     "5d0f01f4-9dab-4fb2-a7ba-6f104020408d",
-    "ea045853-00ed-4f15-9ab6-c10103db3dbb",
     "00e32b05-b91a-424c-90e1-75aae03b931d",
     "2c1b0505-b9b6-4c50-a4f5-87ee7eb4c8f1",
     "2029aca8-21dd-4c78-8466-38f125fef8dd",
-    "c999e4ad-8e71-4cf0-b82c-15677a740225"
+    "c999e4ad-8e71-4cf0-b82c-15677a740225",
+    "ea045853-00ed-4f15-9ab6-c10103db3dbb"
   ]
 }
