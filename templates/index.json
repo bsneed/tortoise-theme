@@ -200,55 +200,6 @@
         "padding_bottom": 24
       }
     },
-    "image_banner_RpiAUj": {
-      "type": "image-banner",
-      "blocks": {
-        "heading_VKrdcM": {
-          "type": "heading",
-          "settings": {
-            "heading": "Image banner",
-            "heading_size": "h1"
-          }
-        },
-        "text_Lzh7qf": {
-          "type": "text",
-          "settings": {
-            "text": "Give customers details about the banner image(s) or content on the template.",
-            "text_style": "body"
-          }
-        },
-        "buttons_3KBkKC": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Button label",
-            "button_link_1": "",
-            "button_style_secondary_1": false,
-            "button_label_2": "Button label",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_VKrdcM",
-        "text_Lzh7qf",
-        "buttons_3KBkKC"
-      ],
-      "settings": {
-        "image_link": "shopify:\/\/collections\/whitaker",
-        "image": "shopify:\/\/shop_images\/whitaker_banner2_45d007c9-0275-4a05-89bb-960f503f15ae.jpg",
-        "image_overlay_opacity": 0,
-        "image_height": "medium",
-        "desktop_content_position": "middle-center",
-        "show_text_box": true,
-        "desktop_content_alignment": "center",
-        "color_scheme": "",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
-      }
-    },
     "featured_collection": {
       "type": "featured-collection",
       "settings": {
@@ -338,6 +289,55 @@
         "padding_bottom": 36
       }
     },
+    "image_banner_RpiAUj": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_VKrdcM": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image banner",
+            "heading_size": "h1"
+          }
+        },
+        "text_Lzh7qf": {
+          "type": "text",
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text_style": "body"
+          }
+        },
+        "buttons_3KBkKC": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_VKrdcM",
+        "text_Lzh7qf",
+        "buttons_3KBkKC"
+      ],
+      "settings": {
+        "image_link": "shopify:\/\/collections\/whitaker",
+        "image": "shopify:\/\/shop_images\/whitaker_banner2_45d007c9-0275-4a05-89bb-960f503f15ae.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
     "5d0f01f4-9dab-4fb2-a7ba-6f104020408d": {
       "type": "featured-collection",
       "settings": {
@@ -364,6 +364,40 @@
         "swipe_on_mobile": false,
         "padding_top": 36,
         "padding_bottom": 36
+      }
+    },
+    "ea045853-00ed-4f15-9ab6-c10103db3dbb": {
+      "type": "newsletter",
+      "blocks": {
+        "template--14705706139683__ea045853-00ed-4f15-9ab6-c10103db3dbb-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "STAY IN TOUCH",
+            "heading_size": "h1"
+          }
+        },
+        "template--14705706139683__ea045853-00ed-4f15-9ab6-c10103db3dbb-paragraph-1": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<h3>GET 20% OFF YOUR FIRST ORDER<\/h3>"
+          }
+        },
+        "template--14705706139683__ea045853-00ed-4f15-9ab6-c10103db3dbb-email_form-1": {
+          "type": "email_form",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "template--14705706139683__ea045853-00ed-4f15-9ab6-c10103db3dbb-heading-1",
+        "template--14705706139683__ea045853-00ed-4f15-9ab6-c10103db3dbb-paragraph-1",
+        "template--14705706139683__ea045853-00ed-4f15-9ab6-c10103db3dbb-email_form-1"
+      ],
+      "settings": {
+        "color_scheme": "scheme-4",
+        "full_width": true,
+        "padding_top": 20,
+        "padding_bottom": 20
       }
     },
     "00e32b05-b91a-424c-90e1-75aae03b931d": {
@@ -464,40 +498,6 @@
         "color": "#000000",
         "full_width": true
       }
-    },
-    "ea045853-00ed-4f15-9ab6-c10103db3dbb": {
-      "type": "newsletter",
-      "blocks": {
-        "template--14705706139683__ea045853-00ed-4f15-9ab6-c10103db3dbb-heading-1": {
-          "type": "heading",
-          "settings": {
-            "heading": "STAY IN TOUCH",
-            "heading_size": "h1"
-          }
-        },
-        "template--14705706139683__ea045853-00ed-4f15-9ab6-c10103db3dbb-paragraph-1": {
-          "type": "paragraph",
-          "settings": {
-            "text": "<h3>GET 20% OFF YOUR FIRST ORDER<\/h3>"
-          }
-        },
-        "template--14705706139683__ea045853-00ed-4f15-9ab6-c10103db3dbb-email_form-1": {
-          "type": "email_form",
-          "settings": {
-          }
-        }
-      },
-      "block_order": [
-        "template--14705706139683__ea045853-00ed-4f15-9ab6-c10103db3dbb-heading-1",
-        "template--14705706139683__ea045853-00ed-4f15-9ab6-c10103db3dbb-paragraph-1",
-        "template--14705706139683__ea045853-00ed-4f15-9ab6-c10103db3dbb-email_form-1"
-      ],
-      "settings": {
-        "color_scheme": "scheme-4",
-        "full_width": true,
-        "padding_top": 20,
-        "padding_bottom": 20
-      }
     }
   },
   "order": [
@@ -508,15 +508,15 @@
     "b1d4b7bc-5a95-46e4-a9eb-e6fd2157b0cc",
     "488ee425-29ec-4f56-a125-9fc4ab1ced19",
     "d8df30e2-e54d-4481-b168-c662abfc1fef",
-    "image_banner_RpiAUj",
     "featured_collection",
     "featured_collection_3fbcmd",
     "club_collage_GE3VPy",
+    "image_banner_RpiAUj",
     "5d0f01f4-9dab-4fb2-a7ba-6f104020408d",
+    "ea045853-00ed-4f15-9ab6-c10103db3dbb",
     "00e32b05-b91a-424c-90e1-75aae03b931d",
     "2c1b0505-b9b6-4c50-a4f5-87ee7eb4c8f1",
     "2029aca8-21dd-4c78-8466-38f125fef8dd",
-    "c999e4ad-8e71-4cf0-b82c-15677a740225",
-    "ea045853-00ed-4f15-9ab6-c10103db3dbb"
+    "c999e4ad-8e71-4cf0-b82c-15677a740225"
   ]
 }
