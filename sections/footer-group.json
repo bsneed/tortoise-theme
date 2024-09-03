@@ -68,7 +68,7 @@
           "type": "text",
           "settings": {
             "heading": "LOCATION",
-            "subtext": "<p>We ship & work out of a warehouse on the outskirts of beautiful Portland, Oregon.<\/p><p>Get in contact with us if you'd like to stop in for a visit!<\/p>"
+            "subtext": "<p>We ship & work out of a warehouse on the outskirts of beautiful <strong>Portland, Oregon<\/strong>.<\/p><p>Get in contact with us if you'd like to stop in for a visit!<\/p>"
           }
         },
         "footer-0": {
