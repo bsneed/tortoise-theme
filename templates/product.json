@@ -272,6 +272,7 @@
         "column_AjNkUE": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/prices_70373e2c-0560-4fe3-b829-6191ccc0e6c1.jpg",
             "title": "GREAT PRICES",
             "text": "<p>Better prices than the big guys and a better product.</p>",
             "link_label": "",
@@ -297,8 +298,18 @@
         "color_scheme": "scheme-1",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
-        "padding_top": 0,
+        "padding_top": 8,
         "padding_bottom": 0
+      }
+    },
+    "club_divider_nbqgbb": {
+      "type": "club-divider",
+      "settings": {
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "height": 2,
+        "color": "#000",
+        "full_width": true
       }
     }
   },
@@ -309,6 +320,7 @@
     "related-products",
     "rich_text_ANwpJa",
     "club_divider_QFcUr9",
-    "multicolumn"
+    "multicolumn",
+    "club_divider_nbqgbb"
   ]
 }
