@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -150,7 +150,7 @@
         "image-with-text-1": {
           "type": "text",
           "settings": {
-            "text": "<h3>We do.  The best boards in the industry as a matter of fact!  Don't believe it?  Go see for yourself.<\/h3>",
+            "text": "<h3>We do.  The best boards in the industry as a matter of fact!  Don't believe it?  Go see for yourself.</h3>",
             "text_style": "body"
           }
         },
@@ -158,7 +158,7 @@
           "type": "button",
           "settings": {
             "button_label": "LEARN MORE",
-            "button_link": "shopify:\/\/blogs\/manufacturing\/our-wood",
+            "button_link": "shopify://blogs/manufacturing/our-wood",
             "button_style_secondary": false
           }
         }
@@ -169,7 +169,7 @@
         "button_LXxGwk"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/102709914_1334523976743001_6336994838940052795_n.jpg",
+        "image": "shopify://shop_images/102709914_1334523976743001_6336994838940052795_n.jpg",
         "height": "small",
         "desktop_image_width": "medium",
         "layout": "text_first",
@@ -194,49 +194,6 @@
         "full_width": true
       }
     },
-    "multicolumn": {
-      "type": "multicolumn",
-      "blocks": {
-        "column-0": {
-          "type": "column",
-          "settings": {
-            "title": "Free Shipping",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column-1": {
-          "type": "column",
-          "settings": {
-            "title": "Hassle-Free Exchanges",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "column-0",
-        "column-1"
-      ],
-      "settings": {
-        "title": "",
-        "heading_size": "h1",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "columns_desktop": 2,
-        "column_alignment": "left",
-        "background_style": "none",
-        "button_label": "",
-        "button_link": "",
-        "color_scheme": "scheme-1",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "related-products": {
       "type": "related-products",
       "settings": {
@@ -254,13 +211,79 @@
         "padding_top": 36,
         "padding_bottom": 28
       }
+    },
+    "multicolumn": {
+      "type": "multicolumn",
+      "blocks": {
+        "column-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/delivery.jpg",
+            "title": "FAST DELIVERY",
+            "text": "<p>Orders usually ship the SAME DAY.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/shipping.jpg",
+            "title": "FREE SHIPPING",
+            "text": "<p>Free shipping on orders over $75.  Better than our competitors.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_AjNkUE": {
+          "type": "column",
+          "settings": {
+            "title": "GREAT PRICES",
+            "text": "<p>Better prices than the big guys and a better product.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column-0",
+        "column-1",
+        "column_AjNkUE"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "scheme-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "club_divider_QFcUr9": {
+      "type": "club-divider",
+      "settings": {
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "height": 5,
+        "color": "#000",
+        "full_width": false
+      }
     }
   },
   "order": [
     "main",
     "image-with-text",
     "45e7b840-8d0e-45e5-9da4-0fc26b218f37",
-    "multicolumn",
-    "related-products"
+    "related-products",
+    "club_divider_QFcUr9",
+    "multicolumn"
   ]
 }
