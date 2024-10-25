@@ -97,18 +97,20 @@
               </div>
             {%- when 'price' -%}
               <div class="no-js-hidden" id="price-{{ section.id }}" role="status" {{ block.shopify_attributes }}>
+                {% comment %}
                 {%- render 'price',
                   product: product,
                   use_variant: true,
                   show_badges: true,
                   price_class: 'price--large'
                 -%}
+                {% endcomment %}
+                {{ product.price | money }} each
               </div>
               <div class="volume-pricing-note">
                 <span>
                 {% if product.tags contains "min2" -%}
                 Priced individually, only sold in sets.
-                Total cost calculated in checkout.
                 {% endif %}
                 </span>
               </div>
