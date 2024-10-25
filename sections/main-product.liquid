@@ -102,7 +102,7 @@
                   use_variant: true,
                   show_badges: true,
                   price_class: 'price--large'
-                -%} each, ({{ product.price | money }} per set)
+                -%} each, {{ product.price | money }} per set
               </div>
               <div class="volume-pricing-note">
                 <span>
