@@ -103,6 +103,9 @@
                   show_badges: true,
                   price_class: 'price--large'
                 -%}
+                {% if item.product.tags contains "min2" -%}
+                Priced individually, 2 are required.
+                {% endif %}
               </div>
               {%- if product.quantity_price_breaks_configured? -%}
                 <div class="volume-pricing-note" id="Volume-Note-{{ section.id }}">
