@@ -3,6 +3,7 @@
   class="section-{{ section.id }}-padding gradient color-{{ section.settings.color_scheme }}"
   data-section="{{ section.id }}"
 >
+
   {{ 'section-main-product.css' | asset_url | stylesheet_tag }}
   {{ 'component-accordion.css' | asset_url | stylesheet_tag }}
   {{ 'component-price.css' | asset_url | stylesheet_tag }}
@@ -27,6 +28,25 @@
     }
   {%- endstyle -%}
 
+  <script>
+        function roundToNearestTwo() {
+            const inputField = document.getElementById("Quantity-{{ section.id }}");
+            let value = parseInt(inputField.value, 10);
+
+            // Check if value is a number
+            if (isNaN(value)) {
+                inputField.value = ''; // Clear invalid input
+                return;
+            }
+
+            // If not a multiple of 2, round up
+            if (value % 2 !== 0) {
+                value += 1;
+                inputField.value = value;
+            }
+        }
+    </script>
+  
   <script src="{{ 'product-info.js' | asset_url }}" defer="defer"></script>
   <script src="{{ 'product-form.js' | asset_url }}" defer="defer"></script>
   {%- if product.quantity_price_breaks_configured? -%}
@@ -253,6 +273,7 @@
                       {% if product.tags contains "min2" -%}
                       data-min="2"
                       min="2"
+                      oninput="roundToNearestTwo()"
                       {% else %}
                       data-min="{{ product.selected_or_first_available_variant.quantity_rule.min }}"
                       min="{{ product.selected_or_first_available_variant.quantity_rule.min }}"
