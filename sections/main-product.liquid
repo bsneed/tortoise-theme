@@ -253,7 +253,6 @@
                       {% if product.tags contains "min2" -%}
                       data-min="2"
                       min="2"
-                      disabled
                       {% else %}
                       data-min="{{ product.selected_or_first_available_variant.quantity_rule.min }}"
                       min="{{ product.selected_or_first_available_variant.quantity_rule.min }}"
