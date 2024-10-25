@@ -364,6 +364,7 @@
                     </span>
                   {%- endif -%}
                 </div>
+                {% comment %}
                 {%- if product.quantity_price_breaks_configured? -%}
                   <volume-pricing class="parent-display no-js-hidden" id="Volume-{{ section.id }}">
                     {%- if product.selected_or_first_available_variant.quantity_price_breaks.size > 0 -%}
@@ -398,6 +399,7 @@
                   {%- endif -%}
                   </volume-pricing>
                 {%- endif -%}
+                {% endcomment %}
               </div>
             {%- when 'popup' -%}
               <modal-opener
