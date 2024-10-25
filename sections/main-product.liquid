@@ -335,6 +335,7 @@
                     </price-per-item>
                   {%- endif -%}
                 </div>
+                {% comment %}
                 <div class="quantity__rules caption no-js-hidden" id="Quantity-Rules-{{ section.id }}">
                   {%- if product.selected_or_first_available_variant.quantity_rule.increment > 1 -%}
                     <span class="divider">
@@ -396,6 +397,7 @@
                   </volume-pricing>
                 {%- endif -%}
               </div>
+                {% endcomment %}
             {%- when 'popup' -%}
               <modal-opener
                 class="product-popup-modal__opener no-js-hidden quick-add-hidden"
