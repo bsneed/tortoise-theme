@@ -243,10 +243,12 @@
                         data-max="{{ product.selected_or_first_available_variant.quantity_rule.max }}"
                         max="{{ product.selected_or_first_available_variant.quantity_rule.max }}"
                       {% endif %}
-                      step="{{ product.selected_or_first_available_variant.quantity_rule.increment }}"
+                      
                       {% if product.tags contains "min2" -%}
+                      step="2"
                       value="2"
                       {% else %}
+                      step="{{ product.selected_or_first_available_variant.quantity_rule.increment }}"
                       value="{{ product.selected_or_first_available_variant.quantity_rule.min }}"
                       {% endif %}
                       form="{{ product_form_id }}"
