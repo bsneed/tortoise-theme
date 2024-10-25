@@ -276,7 +276,7 @@
                     endif
 
                   -%}
-                  {% endcomment %}
+                  
                   
                   {%- if product.quantity_price_breaks_configured? -%}
                     <price-per-item class="no-js-hidden" id="Price-Per-Item-{{ section.id }}" data-section-id="{{ section.id }}" data-variant-id="{{ product.selected_or_first_available_variant.id }}">
@@ -336,6 +336,7 @@
                       {%- endif -%}
                     </price-per-item>
                   {%- endif -%}
+                  {% endcomment %}
                 </div>
                 <div class="quantity__rules caption no-js-hidden" id="Quantity-Rules-{{ section.id }}">
                   {%- if product.selected_or_first_available_variant.quantity_rule.increment > 1 -%}
