@@ -97,17 +97,12 @@
               </div>
             {%- when 'price' -%}
               <div class="no-js-hidden" id="price-{{ section.id }}" role="status" {{ block.shopify_attributes }}>
-                {% comment %}
                 {%- render 'price',
                   product: product,
                   use_variant: true,
                   show_badges: true,
                   price_class: 'price--large'
                 -%}
-                {% endcomment %}
-                <h2 class="price--large"
-                {{ product.price | money }} each
-                  </h2>
               </div>
               <div class="volume-pricing-note">
                 <span>
