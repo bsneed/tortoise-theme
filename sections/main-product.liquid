@@ -29,8 +29,8 @@
   {%- endstyle -%}
 
   <script>
-        function roundToNearestTwo() {
-            const inputField = document.getElementById("Quantity-{{ section.id }}");
+        function roundToNearestTwo(quantityId) {
+            const inputField = document.getElementById(quantityId);
             let value = parseInt(inputField.value, 10);
 
             // Check if value is a number
@@ -273,7 +273,7 @@
                       {% if product.tags contains "min2" -%}
                       data-min="2"
                       min="2"
-                      oninput="roundToNearestTwo()"
+                      oninput="roundToNearestTwo('Quantity-{{ section.id }}')"
                       {% else %}
                       data-min="{{ product.selected_or_first_available_variant.quantity_rule.min }}"
                       min="{{ product.selected_or_first_available_variant.quantity_rule.min }}"
