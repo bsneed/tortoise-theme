@@ -244,7 +244,11 @@
                         max="{{ product.selected_or_first_available_variant.quantity_rule.max }}"
                       {% endif %}
                       step="{{ product.selected_or_first_available_variant.quantity_rule.increment }}"
+                      {% if product.tags contains "min2" and current_variant.inventory_management == 'shopify' -%}
+                      value="2"
+                      {% else %}
                       value="{{ product.selected_or_first_available_variant.quantity_rule.min }}"
+                      {% endif %}
                       form="{{ product_form_id }}"
                     />
                     <button class="quantity__button no-js-hidden" name="plus" type="button">
