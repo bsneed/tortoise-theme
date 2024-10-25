@@ -252,7 +252,7 @@
                                 data-quantity-variant-id="{{ item.variant.id }}"
                                 type="number"
                                 name="updates[]"
-                                {% if item.tags contains "min2" -%}
+                                {% if item.product.tags contains "min2" -%}
                                 value="{{ item.quantity }}"
                                 min="2"
                                 step="2"
