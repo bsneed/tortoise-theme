@@ -1,17 +1,18 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "current": {
     "breadcrumb_text_color": "#000000",
-    "logo": "shopify:\/\/shop_images\/logo_d1930bc9-ffcd-4410-8408-7ec9f3911b6e.png",
+    "logo": "shopify://shop_images/logo_d1930bc9-ffcd-4410-8408-7ec9f3911b6e.png",
     "logo_width": 140,
+    "favicon": "shopify://shop_images/clubdist_social.png",
     "type_header_font": "assistant_n4",
     "heading_scale": 100,
     "type_body_font": "assistant_n4",
@@ -106,6 +107,8 @@
     "badge_corner_radius": 40,
     "sale_badge_color_scheme": "scheme-5",
     "sold_out_badge_color_scheme": "scheme-3",
+    "brand_headline": "",
+    "brand_description": "",
     "social_facebook_link": "",
     "social_instagram_link": "",
     "social_youtube_link": "",
@@ -123,7 +126,7 @@
     "show_vendor": false,
     "show_cart_note": false,
     "cart_drawer_collection": "",
-    "checkout_logo_image": "shopify:\/\/shop_images\/logo_d1930bc9-ffcd-4410-8408-7ec9f3911b6e.png",
+    "checkout_logo_image": "shopify://shop_images/logo_d1930bc9-ffcd-4410-8408-7ec9f3911b6e.png",
     "checkout_logo_size": "medium",
     "sections": {
       "main-password-header": {
@@ -147,7 +150,7 @@
               "name": "Kanit-Bold",
               "custom_font_weight": "700",
               "custom_font_style": "normal",
-              "custom_font_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0081\/7853\/2411\/files\/Kanit-Bold.woff2?v=1703269051",
+              "custom_font_url": "https://cdn.shopify.com/s/files/1/0081/7853/2411/files/Kanit-Bold.woff2?v=1703269051",
               "apply_h1": true,
               "apply_h2": false,
               "apply_h3": true,
@@ -165,7 +168,7 @@
               "name": "Kanit-Semibold",
               "custom_font_weight": "none",
               "custom_font_style": "none",
-              "custom_font_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0081\/7853\/2411\/files\/Kanit-SemiBold.woff2?v=1703269051",
+              "custom_font_url": "https://cdn.shopify.com/s/files/1/0081/7853/2411/files/Kanit-SemiBold.woff2?v=1703269051",
               "apply_h1": false,
               "apply_h2": false,
               "apply_h3": false,
@@ -183,7 +186,7 @@
               "name": "Kanit-Black",
               "custom_font_weight": "none",
               "custom_font_style": "none",
-              "custom_font_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0081\/7853\/2411\/files\/Kanit-Black.woff2?v=1703269051",
+              "custom_font_url": "https://cdn.shopify.com/s/files/1/0081/7853/2411/files/Kanit-Black.woff2?v=1703269051",
               "apply_h1": false,
               "apply_h2": true,
               "apply_h3": false,
@@ -201,7 +204,7 @@
               "name": "Kanit-Regular",
               "custom_font_weight": "none",
               "custom_font_style": "none",
-              "custom_font_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0081\/7853\/2411\/files\/Kanit-Regular.woff2?v=1703269051",
+              "custom_font_url": "https://cdn.shopify.com/s/files/1/0081/7853/2411/files/Kanit-Regular.woff2?v=1703269051",
               "apply_h1": false,
               "apply_h2": false,
               "apply_h3": false,
@@ -219,7 +222,7 @@
               "name": "Kanit-Medium",
               "custom_font_weight": "none",
               "custom_font_style": "none",
-              "custom_font_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0081\/7853\/2411\/files\/Kanit-Medium.woff2?v=1703269051",
+              "custom_font_url": "https://cdn.shopify.com/s/files/1/0081/7853/2411/files/Kanit-Medium.woff2?v=1703269051",
               "apply_h1": false,
               "apply_h2": false,
               "apply_h3": false,
@@ -237,7 +240,7 @@
               "name": "Kanit-Light",
               "custom_font_weight": "none",
               "custom_font_style": "none",
-              "custom_font_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0081\/7853\/2411\/files\/Kanit-Light.woff2?v=1703269051",
+              "custom_font_url": "https://cdn.shopify.com/s/files/1/0081/7853/2411/files/Kanit-Light.woff2?v=1703269051",
               "apply_h1": false,
               "apply_h2": false,
               "apply_h3": false,
@@ -267,14 +270,8 @@
 
     ],
     "blocks": {
-      "17327048248777170309": {
-        "type": "shopify:\/\/apps\/all-in-1-discount-on-cart\/blocks\/instant-load\/f428e1ae-8a34-4767-8189-f8339f3ab12b",
-        "disabled": false,
-        "settings": {
-        }
-      },
       "2234460576277646851": {
-        "type": "shopify:\/\/apps\/ripple-collections-builder\/blocks\/app-embed-block\/9f355ec0-84f0-4c4e-b134-7a7dc7218898",
+        "type": "shopify://apps/ripple-collections-builder/blocks/app-embed-block/9f355ec0-84f0-4c4e-b134-7a7dc7218898",
         "disabled": true,
         "settings": {
         }
