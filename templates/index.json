@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "rich_text": {
@@ -36,8 +36,8 @@
       "type": "image-banner",
       "disabled": true,
       "settings": {
-        "image_link": "shopify:\/\/collections\/whitaker",
-        "image": "shopify:\/\/shop_images\/whitaker_banner2_45d007c9-0275-4a05-89bb-960f503f15ae.jpg",
+        "image_link": "shopify://collections/whitaker",
+        "image": "shopify://shop_images/whitaker_banner2_45d007c9-0275-4a05-89bb-960f503f15ae.jpg",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "desktop_content_position": "middle-left",
@@ -53,8 +53,8 @@
     "image_banner_4D3M7x": {
       "type": "image-banner",
       "settings": {
-        "image_link": "shopify:\/\/collections\/decks",
-        "image": "shopify:\/\/shop_images\/55decks2.jpg",
+        "image_link": "shopify://collections/decks",
+        "image": "shopify://shop_images/parttime_WEB_BENNER.jpg",
         "image_overlay_opacity": 0,
         "image_height": "adapt",
         "desktop_content_position": "middle-center",
@@ -73,12 +73,12 @@
         "template--14705706139683__699dfff4-b0ce-41f1-91d0-de1d6e8e59a2-column-2": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/COLLAGE_ADish_2.heic",
+            "image": "shopify://shop_images/COLLAGE_ADish_2.heic",
             "text_style": "white",
             "title": "",
-            "text": "<p>norman woods<\/p>",
+            "text": "<p>norman woods</p>",
             "link_label": "",
-            "link": "shopify:\/\/blogs\/news\/norman-woods-the-multitalented-skateboarder-youtuber-and-musician"
+            "link": "shopify://blogs/news/norman-woods-the-multitalented-skateboarder-youtuber-and-musician"
           }
         },
         "template--14705706139683__699dfff4-b0ce-41f1-91d0-de1d6e8e59a2-column-1": {
@@ -86,9 +86,9 @@
           "settings": {
             "text_style": "white",
             "title": "Norman Woods @ Collage",
-            "text": "<p>2020 was the genesis of Collage Skateboards. After being a sponsored skater riding for numerous companies within the industry, it was time for Norman to take his 20+ years of experience and do his own thing. <\/p><p><\/p><p><\/p><p>They've spent the last 4 years building a team, educating skaters through Norman's youtube channel, and providing a fresh take on Collage art designed by Ayako Woods. <\/p>",
+            "text": "<p>2020 was the genesis of Collage Skateboards. After being a sponsored skater riding for numerous companies within the industry, it was time for Norman to take his 20+ years of experience and do his own thing. </p><p></p><p></p><p>They've spent the last 4 years building a team, educating skaters through Norman's youtube channel, and providing a fresh take on Collage art designed by Ayako Woods. </p>",
             "link_label": ": Click here to learn more about Norman & Collage :",
-            "link": "shopify:\/\/blogs\/news\/norman-woods-the-multitalented-skateboarder-youtuber-and-musician"
+            "link": "shopify://blogs/news/norman-woods-the-multitalented-skateboarder-youtuber-and-musician"
           }
         }
       },
@@ -179,13 +179,12 @@
         "template--14705706139683__d8df30e2-e54d-4481-b168-c662abfc1fef-paragraph-1": {
           "type": "paragraph",
           "settings": {
-            "text": "<h3>GET 20% OFF YOUR FIRST ORDER<\/h3>"
+            "text": "<h3>GET 20% OFF YOUR FIRST ORDER</h3>"
           }
         },
         "template--14705706139683__d8df30e2-e54d-4481-b168-c662abfc1fef-email_form-1": {
           "type": "email_form",
-          "settings": {
-          }
+          "settings": {}
         }
       },
       "block_order": [
@@ -262,7 +261,7 @@
         "image_WaPfRr": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Screenshot_2023-05-01_at_1.57.01_PM_1c652ee2-4fbe-4f2f-864a-2d58cd6785e3.png",
+            "image": "shopify://shop_images/Screenshot_2023-05-01_at_1.57.01_PM_1c652ee2-4fbe-4f2f-864a-2d58cd6785e3.png",
             "image_link": ""
           }
         },
@@ -324,8 +323,8 @@
         "buttons_3KBkKC"
       ],
       "settings": {
-        "image_link": "shopify:\/\/collections\/whitaker",
-        "image": "shopify:\/\/shop_images\/whitaker_banner2_45d007c9-0275-4a05-89bb-960f503f15ae.jpg",
+        "image_link": "shopify://collections/whitaker",
+        "image": "shopify://shop_images/whitaker_banner2_45d007c9-0275-4a05-89bb-960f503f15ae.jpg",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "desktop_content_position": "middle-center",
@@ -405,9 +404,9 @@
         "template--14705706139683__2029aca8-21dd-4c78-8466-38f125fef8dd-column-1": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/delivery.jpg",
+            "image": "shopify://shop_images/delivery.jpg",
             "title": "FAST DELIVERY",
-            "text": "<p>Orders usually ship the SAME DAY.<\/p>",
+            "text": "<p>Orders usually ship the SAME DAY.</p>",
             "link_label": "",
             "link": ""
           }
@@ -415,9 +414,9 @@
         "template--14705706139683__2029aca8-21dd-4c78-8466-38f125fef8dd-column-2": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/shipping.jpg",
+            "image": "shopify://shop_images/shipping.jpg",
             "title": "FREE SHIPPING",
-            "text": "<p>Free shipping on orders over $75.  Better than our competitors.<\/p>",
+            "text": "<p>Free shipping on orders over $75.  Better than our competitors.</p>",
             "link_label": "",
             "link": ""
           }
@@ -425,9 +424,9 @@
         "template--14705706139683__2029aca8-21dd-4c78-8466-38f125fef8dd-column-3": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/prices_70373e2c-0560-4fe3-b829-6191ccc0e6c1.jpg",
+            "image": "shopify://shop_images/prices_70373e2c-0560-4fe3-b829-6191ccc0e6c1.jpg",
             "title": "GREAT PRICES",
-            "text": "<p>Better prices than the big guys and a better product.<\/p>",
+            "text": "<p>Better prices than the big guys and a better product.</p>",
             "link_label": "",
             "link": ""
           }
@@ -478,13 +477,12 @@
         "template--14705706139683__ea045853-00ed-4f15-9ab6-c10103db3dbb-paragraph-1": {
           "type": "paragraph",
           "settings": {
-            "text": "<h3>GET 20% OFF YOUR FIRST ORDER<\/h3>"
+            "text": "<h3>GET 20% OFF YOUR FIRST ORDER</h3>"
           }
         },
         "template--14705706139683__ea045853-00ed-4f15-9ab6-c10103db3dbb-email_form-1": {
           "type": "email_form",
-          "settings": {
-          }
+          "settings": {}
         }
       },
       "block_order": [
