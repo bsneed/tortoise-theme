@@ -228,6 +228,34 @@
         "padding_bottom": 36
       }
     },
+    "featured_collection_QjkyeY": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "GRIND FOR LIFE",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "random_trucks",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "featured_collection_3fbcmd": {
       "type": "featured-collection",
       "settings": {
@@ -496,34 +524,6 @@
         "full_width": true,
         "padding_top": 20,
         "padding_bottom": 20
-      }
-    },
-    "featured_collection_QjkyeY": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "GRIND FOR LIFE",
-        "heading_size": "h1",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "trucks",
-        "products_to_show": 4,
-        "columns_desktop": 4,
-        "full_width": false,
-        "show_view_all": true,
-        "view_all_style": "solid",
-        "enable_desktop_slider": false,
-        "color_scheme": "",
-        "image_ratio": "adapt",
-        "image_shape": "default",
-        "show_secondary_image": false,
-        "show_vendor": false,
-        "show_rating": false,
-        "enable_quick_add": false,
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
       }
     },
     "featured_collection_MdD3rJ": {
