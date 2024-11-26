@@ -478,7 +478,7 @@
         "template--14705706139683__ea045853-00ed-4f15-9ab6-c10103db3dbb-paragraph-1": {
           "type": "paragraph",
           "settings": {
-            "text": "<h3>GET 20% OFF YOUR FIRST ORDER</h3>"
+            "text": "<h3>THE LATEST STUFF, FIRST</h3>"
           }
         },
         "template--14705706139683__ea045853-00ed-4f15-9ab6-c10103db3dbb-email_form-1": {
@@ -497,6 +497,62 @@
         "padding_top": 20,
         "padding_bottom": 20
       }
+    },
+    "featured_collection_QjkyeY": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "GRIND FOR LIFE",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "trucks",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "featured_collection_MdD3rJ": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "NEW SHOES",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "wheels",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -508,6 +564,7 @@
     "488ee425-29ec-4f56-a125-9fc4ab1ced19",
     "d8df30e2-e54d-4481-b168-c662abfc1fef",
     "featured_collection",
+    "featured_collection_QjkyeY",
     "featured_collection_3fbcmd",
     "club_collage_GE3VPy",
     "image_banner_RpiAUj",
@@ -516,6 +573,7 @@
     "2c1b0505-b9b6-4c50-a4f5-87ee7eb4c8f1",
     "2029aca8-21dd-4c78-8466-38f125fef8dd",
     "c999e4ad-8e71-4cf0-b82c-15677a740225",
-    "ea045853-00ed-4f15-9ab6-c10103db3dbb"
+    "ea045853-00ed-4f15-9ab6-c10103db3dbb",
+    "featured_collection_MdD3rJ"
   ]
 }
