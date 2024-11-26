@@ -534,7 +534,7 @@
         "description": "",
         "show_description": false,
         "description_style": "body",
-        "collection": "wheels",
+        "collection": "random_wheels",
         "products_to_show": 4,
         "columns_desktop": 4,
         "full_width": false,
@@ -565,6 +565,7 @@
     "d8df30e2-e54d-4481-b168-c662abfc1fef",
     "featured_collection",
     "featured_collection_QjkyeY",
+    "featured_collection_MdD3rJ",
     "featured_collection_3fbcmd",
     "club_collage_GE3VPy",
     "image_banner_RpiAUj",
@@ -573,7 +574,6 @@
     "2c1b0505-b9b6-4c50-a4f5-87ee7eb4c8f1",
     "2029aca8-21dd-4c78-8466-38f125fef8dd",
     "c999e4ad-8e71-4cf0-b82c-15677a740225",
-    "ea045853-00ed-4f15-9ab6-c10103db3dbb",
-    "featured_collection_MdD3rJ"
+    "ea045853-00ed-4f15-9ab6-c10103db3dbb"
   ]
 }
