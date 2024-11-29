@@ -205,7 +205,7 @@
         "show_description": false,
         "description_style": "body",
         "collection": "random_trucks",
-        "collection_view_all": "",
+        "collection_view_all": "trucks",
         "products_to_show": 4,
         "columns_desktop": 4,
         "full_width": false,
