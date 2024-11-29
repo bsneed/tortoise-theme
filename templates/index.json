@@ -76,7 +76,7 @@
     "featured_collection_QjkyeY": {
       "type": "featured-collection",
       "settings": {
-        "title": "ACE, INDY, VENTURE -- LOWEST ANYWHERE",
+        "title": "BUILT TO GRIND",
         "heading_size": "h1",
         "description": "",
         "show_description": false,
@@ -93,7 +93,7 @@
         "image_ratio": "adapt",
         "image_shape": "default",
         "show_secondary_image": false,
-        "show_vendor": false,
+        "show_vendor": true,
         "show_rating": false,
         "enable_quick_add": false,
         "columns_mobile": "2",
