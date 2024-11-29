@@ -234,7 +234,7 @@
         "show_description": false,
         "description_style": "body",
         "collection": "random_wheels",
-        "collection_view_all": "",
+        "collection_view_all": "wheels",
         "products_to_show": 4,
         "columns_desktop": 4,
         "full_width": false,
