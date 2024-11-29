@@ -407,7 +407,7 @@
         "show_description": false,
         "description_style": "body",
         "collection": "apparel",
-        "collection_view_all": "",
+        "collection_view_all": "apparel",
         "products_to_show": 8,
         "columns_desktop": 4,
         "full_width": false,
