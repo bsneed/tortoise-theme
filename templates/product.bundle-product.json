@@ -1,0 +1,351 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "vendor": {
+          "type": "text",
+          "settings": {
+            "text": "{{ product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {}
+        },
+        "caption": {
+          "type": "text",
+          "settings": {
+            "text": "{{ product.metafields.descriptors.subtitle.value }}",
+            "text_style": "subtitle"
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {}
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button"
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": true
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {}
+        },
+        "collapsible-row-0": {
+          "type": "collapsible_tab",
+          "disabled": true,
+          "settings": {
+            "heading": "Materials",
+            "icon": "leather",
+            "content": "",
+            "page": ""
+          }
+        },
+        "collapsible-row-1": {
+          "type": "collapsible_tab",
+          "disabled": true,
+          "settings": {
+            "heading": "Shipping & Returns",
+            "icon": "truck",
+            "content": "",
+            "page": ""
+          }
+        },
+        "collapsible-row-2": {
+          "type": "collapsible_tab",
+          "disabled": true,
+          "settings": {
+            "heading": "Dimensions",
+            "icon": "ruler",
+            "content": "",
+            "page": ""
+          }
+        },
+        "collapsible-row-3": {
+          "type": "collapsible_tab",
+          "disabled": true,
+          "settings": {
+            "heading": "Care Instructions",
+            "icon": "heart",
+            "content": "",
+            "page": ""
+          }
+        },
+        "share": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        },
+        "biscuits_bundles_biscuits_bundle_form_WKXbjR": {
+          "type": "shopify://apps/biscuits-bundles/blocks/biscuits-bundle-form/9e9ff1bd-2cba-468f-b59f-a1ff63f6efe9",
+          "settings": {
+            "text_color": "#121212",
+            "card_color": "#fff",
+            "input_type": "rectangle",
+            "input_text_color": "#121212",
+            "input_color": "#fff",
+            "display_shadow": false,
+            "display_selection_count": false,
+            "display_running_totals": false,
+            "enable_product_links": false,
+            "card_padding": 10,
+            "grid_gap": 10,
+            "border_color": "#E1E1E1",
+            "border_radius": 0,
+            "highlight_type": "outline",
+            "selected_text_color": "#121212",
+            "selected_color": "#848484",
+            "border_thickness": 1,
+            "divider_color": "#E1E1E1",
+            "important_color": "#DD1D1D",
+            "padding_top": 32,
+            "padding_bottom": 32,
+            "custom_css": "#shopify-block-{{block.id}} {}",
+            "custom_js": "document.addEventListener('DOMContentLoaded', function() { });"
+          }
+        }
+      },
+      "block_order": [
+        "vendor",
+        "title",
+        "caption",
+        "price",
+        "variant_picker",
+        "quantity_selector",
+        "buy_buttons",
+        "description",
+        "collapsible-row-0",
+        "collapsible-row-1",
+        "collapsible-row-2",
+        "collapsible-row-3",
+        "share",
+        "biscuits_bundles_biscuits_bundle_form_WKXbjR"
+      ],
+      "settings": {
+        "enable_sticky_info": true,
+        "color_scheme": "",
+        "media_size": "small",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "gallery_layout": "thumbnail",
+        "media_position": "left",
+        "image_zoom": "lightbox",
+        "mobile_thumbnails": "show",
+        "hide_variants": true,
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 12
+      }
+    },
+    "image-with-text": {
+      "type": "image-with-text",
+      "blocks": {
+        "image-with-text-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "GOT WOOD?",
+            "heading_size": "h0"
+          }
+        },
+        "image-with-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<h3>We do.  The best boards in the industry as a matter of fact!  Don't believe it?  Go see for yourself.</h3>",
+            "text_style": "body"
+          }
+        },
+        "button_LXxGwk": {
+          "type": "button",
+          "settings": {
+            "button_label": "LEARN MORE",
+            "button_link": "shopify://blogs/manufacturing/our-wood",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "image-with-text-0",
+        "image-with-text-1",
+        "button_LXxGwk"
+      ],
+      "disabled": true,
+      "settings": {
+        "image": "shopify://shop_images/102709914_1334523976743001_6336994838940052795_n.jpg",
+        "height": "small",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "scheme-2",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "45e7b840-8d0e-45e5-9da4-0fc26b218f37": {
+      "type": "club-divider",
+      "settings": {
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "height": 2,
+        "color": "#000000",
+        "full_width": true
+      }
+    },
+    "related-products": {
+      "type": "related-products",
+      "settings": {
+        "heading": "You may also like",
+        "heading_size": "h2",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "color_scheme": "scheme-1",
+        "image_ratio": "square",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "columns_mobile": "2",
+        "padding_top": 36,
+        "padding_bottom": 28
+      }
+    },
+    "rich_text_ANwpJa": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_74rbAV": {
+          "type": "heading",
+          "settings": {
+            "heading": "DON'T HESITATE",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "heading_74rbAV"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 36,
+        "padding_bottom": 12
+      }
+    },
+    "club_divider_QFcUr9": {
+      "type": "club-divider",
+      "settings": {
+        "padding_top": 0,
+        "padding_bottom": 15,
+        "height": 2,
+        "color": "#000000",
+        "full_width": true
+      }
+    },
+    "multicolumn": {
+      "type": "multicolumn",
+      "blocks": {
+        "column-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/delivery.jpg",
+            "title": "FAST DELIVERY",
+            "text": "<p>Orders usually ship the SAME DAY.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/shipping.jpg",
+            "title": "FREE SHIPPING",
+            "text": "<p>Free shipping on orders over $75.  Better than our competitors.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_AjNkUE": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/prices_70373e2c-0560-4fe3-b829-6191ccc0e6c1.jpg",
+            "title": "GREAT PRICES",
+            "text": "<p>Better prices than the big guys and a better product.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column-0",
+        "column-1",
+        "column_AjNkUE"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "scheme-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "club_divider_nbqgbb": {
+      "type": "club-divider",
+      "settings": {
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "height": 2,
+        "color": "#000000",
+        "full_width": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image-with-text",
+    "45e7b840-8d0e-45e5-9da4-0fc26b218f37",
+    "related-products",
+    "rich_text_ANwpJa",
+    "club_divider_QFcUr9",
+    "multicolumn",
+    "club_divider_nbqgbb"
+  ]
+}
