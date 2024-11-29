@@ -34,12 +34,11 @@
     },
     "image_banner": {
       "type": "image-banner",
-      "disabled": true,
       "settings": {
-        "image_link": "shopify://collections/whitaker",
-        "image": "shopify://shop_images/whitaker_banner2_45d007c9-0275-4a05-89bb-960f503f15ae.jpg",
+        "image_link": "",
+        "image": "shopify://shop_images/broke_0067d317-8b93-4426-822d-7a1abcf1e2c9.jpg",
         "image_overlay_opacity": 0,
-        "image_height": "medium",
+        "image_height": "adapt",
         "desktop_content_position": "middle-left",
         "show_text_box": false,
         "desktop_content_alignment": "left",
@@ -52,6 +51,7 @@
     },
     "image_banner_4D3M7x": {
       "type": "image-banner",
+      "disabled": true,
       "settings": {
         "image_link": "https://youtu.be/IgmsCNin2Fo?feature=shared",
         "image": "shopify://shop_images/parttime_WEB_BENNER.jpg",
