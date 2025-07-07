@@ -199,12 +199,16 @@
                 {%- endif -%}
               </p>
             {%- when 'description' -%}
-              {%- if product.description != blank -%}
+              {%- if product.description != blank or product.tags contains 'bbs' -%}
                 <div class="product__description rte quick-add-hidden" {{ block.shopify_attributes }}>
-                  {{ product.description }}
-                  <br/>
+                  {%- if product.description != blank -%}
+                    {{ product.description }}
+                    {%- if product.tags contains 'bbs' -%}
+                      <br><br>
+                    {%- endif -%}
+                  {%- endif -%}
                   {%- if product.tags contains 'bbs' -%}
-                     Manufactured by BBS - America's premium skateboard woodshop setting the standard for craftsmanship and quality for over 25 years. Professional 7-ply North American hard rock maple construction.  
+                    BBS manufactured deck - setting the standard for skateboard craftsmanship and quality for over 25 years. Professional 7-ply North American hard rock maple construction.
                   {%- endif -%}
                 </div>
               {%- endif -%}
