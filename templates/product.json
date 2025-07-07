@@ -336,27 +336,11 @@
         "color": "#000000",
         "full_width": true
       }
-    },
-    "video_WeAg7g": {
-      "type": "video",
-      "name": "t:sections.video.presets.name",
-      "settings": {
-        "heading": "Video",
-        "heading_size": "h1",
-        "enable_video_looping": false,
-        "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-        "description": "",
-        "full_width": false,
-        "color_scheme": "",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
     }
   },
   "order": [
     "main",
     "image-with-text",
-    "video_WeAg7g",
     "45e7b840-8d0e-45e5-9da4-0fc26b218f37",
     "related-products",
     "rich_text_ANwpJa",
