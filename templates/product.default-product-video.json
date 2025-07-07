@@ -214,8 +214,8 @@
       "type": "video",
       "name": "t:sections.video.presets.name",
       "settings": {
-        "heading": "Video",
-        "heading_size": "h1",
+        "heading": "",
+        "heading_size": "h2",
         "enable_video_looping": false,
         "video_url": "https://youtu.be/RJ29MXEn65A",
         "description": "",
