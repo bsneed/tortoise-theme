@@ -218,6 +218,7 @@
         "heading_size": "h2",
         "enable_video_looping": false,
         "video_url": "https://youtu.be/RJ29MXEn65A",
+        "cover_image": "shopify://shop_images/rsb_ratchet.png",
         "description": "",
         "full_width": false,
         "color_scheme": "",
