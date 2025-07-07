@@ -202,11 +202,10 @@
               {%- if product.description != blank -%}
                 <div class="product__description rte quick-add-hidden" {{ block.shopify_attributes }}>
                   {{ product.description }}
-                </div>
-              {%- endif -%}
-              {%- if product.tags contains 'bbs' -%}
-                <div class="product__bbs-notice rte">
-                  Your custom text goes here
+                  <br/>
+                  {%- if product.tags contains 'bbs' -%}
+                     Manufactured by BBS - America's premium skateboard woodshop setting the standard for craftsmanship and quality for over 25 years. Professional 7-ply North American hard rock maple construction.  
+                  {%- endif -%}
                 </div>
               {%- endif -%}
             {%- when 'sku' -%}
