@@ -35,13 +35,13 @@
     "image_banner": {
       "type": "image-banner",
       "settings": {
-        "image_link": "",
-        "image": "shopify://shop_images/no_sales2.jpg",
+        "image_link": "shopify://collections/partner",
+        "image": "shopify://shop_images/Club-Website-Launch-Banner-Hi-Res.jpg",
         "image_overlay_opacity": 0,
         "image_height": "adapt",
         "desktop_content_position": "middle-left",
         "show_text_box": false,
-        "desktop_content_alignment": "left",
+        "desktop_content_alignment": "center",
         "color_scheme": "scheme-3",
         "image_behavior": "none",
         "mobile_content_alignment": "left",
