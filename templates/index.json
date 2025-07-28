@@ -35,7 +35,7 @@
     "image_banner": {
       "type": "image-banner",
       "settings": {
-        "image_link": "shopify://collections/partner",
+        "image_link": "shopify://collections/partner-skateboards",
         "image": "shopify://shop_images/Club-Website-Launch-Banner-Hi-Res.jpg",
         "image_overlay_opacity": 0,
         "image_height": "adapt",
