@@ -106,7 +106,7 @@
     "image_banner": {
       "type": "image-banner",
       "settings": {
-        "image_link": "shopify://collections/comic-culprit",
+        "image_link": "shopify://collections/impact-skateboards",
         "image": "shopify://shop_images/Screenshot_2026-02-09_at_1.14.53_PM.png",
         "image_overlay_opacity": 0,
         "image_height": "adapt",
