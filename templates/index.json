@@ -34,6 +34,7 @@
     },
     "image_banner_DCGXqp": {
       "type": "image-banner",
+      "disabled": true,
       "settings": {
         "image_link": "shopify://collections/impact-skateboards",
         "image": "shopify://shop_images/CC_Club_Dist_Main_Banner_4500x2247px.jpg",
@@ -51,10 +52,9 @@
     },
     "image_banner_4D3M7x": {
       "type": "image-banner",
-      "disabled": true,
       "settings": {
-        "image_link": "https://youtu.be/IgmsCNin2Fo?feature=shared",
-        "image": "shopify://shop_images/parttime_WEB_BENNER.jpg",
+        "image_link": "shopify://collections/the-furniture-company",
+        "image": "shopify://shop_images/TFC-Club-Website_Banner.jpg",
         "image_overlay_opacity": 0,
         "image_height": "adapt",
         "desktop_content_position": "middle-center",
