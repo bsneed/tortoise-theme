@@ -58,11 +58,11 @@
         "image_overlay_opacity": 0,
         "image_height": "adapt",
         "desktop_content_position": "middle-center",
-        "show_text_box": true,
+        "show_text_box": false,
         "desktop_content_alignment": "center",
-        "color_scheme": "",
+        "color_scheme": "scheme-1",
         "image_behavior": "none",
-        "mobile_content_alignment": "center",
+        "mobile_content_alignment": "right",
         "stack_images_on_mobile": true,
         "show_text_below": true
       }
