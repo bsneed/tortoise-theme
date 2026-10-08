@@ -278,13 +278,28 @@
         "disabled": false,
         "settings": {
           "quickadd_action": "replace",
-          "quick_add_button_classes": "",
           "quickview_action": "hide",
           "quick_add_selector": "",
           "quick_view_selector": "",
           "grid_item_selector": "",
           "product_form_selector": "",
+          "quick_add_button_classes": "",
           "custom_css": ""
+        }
+      },
+      "7163839355306705538": {
+        "type": "shopify://apps/cartgate/blocks/cart-gate-warnings/019cbe99-0ca4-775e-9a16-3e5add66f621",
+        "disabled": false,
+        "settings": {
+          "inherit_text_size": true,
+          "text_size": 15,
+          "text_color": "#5c4813",
+          "background_color": "#fef9e7",
+          "border_color": "#d4a017",
+          "border_radius": 8,
+          "show_icon": true,
+          "icon_color": "",
+          "side_margin": 0
         }
       }
     },
